@@ -1,0 +1,17 @@
+{
+  "cases": [
+    {"id": "TC01", "query": "分析北京市重点高校人工智能专业与2025年AI招聘市场的人才供需适配情况，并找出最关键的技能缺口", "mode": "E_skill_gap", "checks": ["tool_calls", "evidence", "missing_null", "supply_demand_separated"]},
+    {"id": "TC02", "query": "分析北京工业大学人工智能专业的培养方案与产业需求适配度", "mode": "B_school_major_analysis", "checks": ["tool_calls", "course_fallback_disclosed", "missing_null"]},
+    {"id": "TC03", "query": "对比北京地区211高校人工智能专业的就业质量", "mode": "C_benchmark", "checks": ["benchmark_sample_note", "no_rank_without_sample"]},
+    {"id": "TC04", "query": "分析人工智能专业2021到2024年的就业趋势", "mode": "D_trend", "checks": ["trend_insufficient_when_single_point"]},
+    {"id": "TC05", "query": "识别人工智能专业的技能缺口", "mode": "E_skill_gap", "checks": ["gap_rows", "gap_insufficient_not_zero"]},
+    {"id": "TC06", "query": "分析人工智能产业政策对专业设置的机制影响", "mode": "F_policy_mechanism", "checks": ["no_causal_language", "policy_evidence_level_A"]},
+    {"id": "TC07", "query": "模拟增加大模型应用开发课程后培养方案的变化", "mode": "G_curriculum_simulation", "checks": ["simulation_disclaimer", "simulation_delta_present"]},
+    {"id": "TC08", "query": "生成人工智能专业完整研究报告", "mode": "H_full_report", "checks": ["report_sections_18"]},
+    {"id": "TC09", "query": "分析中央民族大学人工智能专业的师资条件", "mode": "B_school_major_analysis", "checks": ["faculty_facts", "missing_null"]},
+    {"id": "TC10", "query": "分析音乐人工智能与音乐信息科技专业的就业情况", "mode": "A_major_analysis", "checks": ["graceful_unknown_major"]},
+    {"id": "TC11", "query": "北京市高校毕业生就业政策有哪些主要方向", "mode": "F_policy_mechanism", "checks": ["policy_industry_direction"]},
+    {"id": "TC12", "query": "重复运行同一分析，结果是否可复现", "mode": "A_major_analysis", "checks": ["deterministic"]}
+  ],
+  "modes_required": ["A_major_analysis", "B_school_major_analysis", "C_benchmark", "D_trend", "E_skill_gap", "F_policy_mechanism", "G_curriculum_simulation", "H_full_report"]
+}

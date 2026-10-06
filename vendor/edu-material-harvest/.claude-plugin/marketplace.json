@@ -1,0 +1,15 @@
+{
+  "name": "edu-material-harvest",
+  "owner": {
+    "name": "edu-harvest-labs"
+  },
+  "description": "高校公开资料采集 —— 官方免登录源自动发现与采集 skill（培养方案 / 专业介绍 / 课程大纲 / 年度报告）。",
+  "plugins": [
+    {
+      "name": "edu-material-harvest",
+      "source": "./",
+      "description": "自动发现并采集任意 *.edu.cn 高校的培养方案 / 专业介绍 / 课程大纲 / 年度报告，产出可溯源台账（下载直链 + 承载页）；内置零依赖 MCP 服务端，跨 Agent 可用。",
+      "version": "2.0.0"
+    }
+  ]
+}

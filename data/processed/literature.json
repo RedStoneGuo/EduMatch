@@ -1,0 +1,1744 @@
+{
+  "source": "openalex",
+  "robots": {
+    "api.openalex.org": "User-agent: * / Allow: /"
+  },
+  "retrieval_time": "2026-10-03T06:17:07.390401+00:00",
+  "queries": [
+    "talent supply and demand matching higher education",
+    "graduate employability skills gap curriculum",
+    "artificial intelligence workforce skills demand",
+    "labor market signaling university curriculum reform",
+    "高校 人才 供需 适配"
+  ],
+  "n_works": 59,
+  "works": [
+    {
+      "work_id": "https://openalex.org/W2969625533",
+      "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+      "year": 2019,
+      "doi": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+      "venue": "International Journal of Information Management",
+      "authors": [
+        "Yogesh Kumar Dwivedi",
+        "Laurie Hughes",
+        "Elvira Ismagilova",
+        "Gert Aarts",
+        "Crispin R. Coombs",
+        "Tom Crick",
+        "Yanqing Duan",
+        "Rohita Dwivedi"
+      ],
+      "cited_by_count": 4526,
+      "type": "article",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S026840121930917X",
+      "abstract": "As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where humans had reached the limits of physical capacity. Artificial Intelligence (AI) offers this same transformative potential for the augmentation and potential replacement of human tasks and activities within a wide range of industrial, intellectual and social applications. The pace of change for this new AI technological age is staggering, with new breakthroughs in algorithmic machine learning and autonomous decision-making, engendering new opportunities for continued innovation. The impact of AI could be significant, with industries ranging from: finance , healthcare, manufacturing, retail, supply chain , logistics and utilities, all potentially disrupted by the onset of AI technologies. The study brings together the collective insight from a number of leading expert contributors to highlight the significant opportunities, realistic assessment of impact, challenges and potential research agenda posed by the rapid emergence of AI within a number of domains: business and management, government, public sector, and science and technology . This research offers significant and timely insight to AI technology and its impact on the future of industry and society in general, whilst recognising the societal and industrial influence on pace and direction of AI development.",
+      "concepts": [
+        "Pace",
+        "Transformative learning",
+        "Government (linguistics)",
+        "Multidisciplinary approach",
+        "Supply chain",
+        "Knowledge management"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.979926+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W3000603264",
+      "title": "The role of artificial intelligence in achieving the Sustainable Development Goals",
+      "year": 2020,
+      "doi": "https://doi.org/10.1038/s41467-019-14108-y",
+      "venue": "Nature Communications",
+      "authors": [
+        "Ricardo Vinuesa",
+        "Hossein Azizpour",
+        "Iolanda Leite",
+        "Madeline Balaam",
+        "Virginia Dignum",
+        "Sami Domisch",
+        "Anna Felländer",
+        "Simone D. Langhans"
+      ],
+      "cited_by_count": 3249,
+      "type": "article",
+      "open_access_url": "https://www.nature.com/articles/s41467-019-14108-y.pdf",
+      "abstract": "The emergence of artificial intelligence (AI) and its progressively wider impact on many sectors requires an assessment of its effect on the achievement of the Sustainable Development Goals. Using a consensus-based expert elicitation process, we find that AI can enable the accomplishment of 134 targets across all the goals, but it may also inhibit 59 targets. However, current research foci overlook important aspects. The fast development of AI needs to be supported by the necessary regulatory insight and oversight for AI-based technologies to enable sustainable development. Failure to do so could result in gaps in transparency, safety, and ethical standards.",
+      "concepts": [
+        "Accountability",
+        "Transparency (behavior)",
+        "Sustainable development",
+        "Productivity",
+        "Computer science",
+        "Business"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.978925+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W3123015728",
+      "title": "The Gender Wage Gap: Extent, Trends, and Explanations",
+      "year": 2017,
+      "doi": "https://doi.org/10.1257/jel.20160995",
+      "venue": "Journal of Economic Literature",
+      "authors": [
+        "Francine D. Blau",
+        "Lawrence M. Kahn"
+      ],
+      "cited_by_count": 3063,
+      "type": "article",
+      "open_access_url": "https://www.aeaweb.org/articles/pdf/doi/10.1257/jel.20160995",
+      "abstract": "Using Panel Study of Income Dynamics (PSID) microdata over the 1980–2010 period, we provide new empirical evidence on the extent of and trends in the gender wage gap, which declined considerably during this time. By 2010, conventional human capital variables taken together explained little of the gender wage gap, while gender differences in occupation and industry continued to be important. Moreover, the gender pay gap declined much more slowly at the top of the wage distribution than at the middle or bottom and by 2010 was noticeably higher at the top. We then survey the literature to identify what has been learned about the explanations for the gap. We conclude that many of the traditional explanations continue to have salience. Although human-capital factors are now relatively unimportant in the aggregate, women's work force interruptions and shorter hours remain significant in high-skilled occupations, possibly due to compensating differentials. Gender differences in occupations and industries, as well as differences in gender roles and the gender division of labor remain important, and research based on experimental evidence strongly suggests that discrimination cannot be discounted. Psychological attributes or noncognitive skills comprise one of the newer explanations for gender differences in outcomes. Our effort to assess the quantitative evidence on the importance of these factors suggests that they account for a small to moderate portion of the gender pay gap, considerably smaller than, say, occupation and industry effects, though they appear to modestly contribute to these differences. ( JEL I26, J16, J24, J31, J71)",
+      "concepts": [
+        "Microdata (statistics)",
+        "Wage",
+        "Human capital",
+        "Economics",
+        "Salience (neuroscience)",
+        "Demographic economics"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.295441+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W4247155454",
+      "title": "Artificial Intelligence and Management: The Automation–Augmentation Paradox",
+      "year": 2021,
+      "doi": "https://doi.org/10.5465/amr.2018.0072",
+      "venue": "Academy of Management Review",
+      "authors": [
+        "Sebastian Raisch",
+        "Sebastian Maximillian Krakowski"
+      ],
+      "cited_by_count": 2533,
+      "type": "article",
+      "open_access_url": "https://journals.aom.org/doi/full/10.5465/amr.2018.0072",
+      "abstract": "Taking three recent business books on artificial intelligence (AI) as a starting point, we explore the automation and augmentation concepts in the management domain. Whereas automation implies that machines take over a human task, augmentation means that humans collaborate closely with machines to perform a task. Taking a normative stance, the three books advise organizations to prioritize augmentation, which they relate to superior performance. Using a more comprehensive paradox theory perspective, we argue that, in the management domain, augmentation cannot be neatly separated from automation. These dual AI applications are interdependent across time and space, creating a paradoxical tension. Overemphasizing either augmentation or automation fuels reinforcing cycles with negative organizational and societal outcomes. However, if organizations adopt a broader perspective comprising both automation and augmentation, they could deal with the tension and achieve complementarities that benefit business and society. Drawing on our insights, we conclude that management scholars need to be involved in research on the use of AI in organizations. We also argue that a substantial change is required in how AI research is currently conducted in order to develop meaningful theory and to provide practice with sound advice.",
+      "concepts": [
+        "Automation",
+        "Task (project management)",
+        "Interdependence",
+        "Normative",
+        "Knowledge management",
+        "Perspective (graphical)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.979926+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W2770717476",
+      "title": "Exploring the impact of artificial intelligence on teaching and learning in higher education",
+      "year": 2017,
+      "doi": "https://doi.org/10.1186/s41039-017-0062-8",
+      "venue": "Research and Practice in Technology Enhanced Learning",
+      "authors": [
+        "Ştefan Popenici",
+        "Sharon Kerr"
+      ],
+      "cited_by_count": 1992,
+      "type": "article",
+      "open_access_url": "https://doi.org/10.1186/s41039-017-0062-8",
+      "abstract": "This paper explores the phenomena of the emergence of the use of artificial intelligence in teaching and learning in higher education. It investigates educational implications of emerging technologies on the way students learn and how institutions teach and evolve. Recent technological advancements and the increasing speed of adopting new technologies in higher education are explored in order to predict the future nature of higher education in a world where artificial intelligence is part of the fabric of our universities. We pinpoint some challenges for institutions of higher education and student learning in the adoption of these technologies for teaching, learning, student support, and administration and explore further directions for research.",
+      "concepts": [
+        "Higher education",
+        "Educational technology",
+        "Order (exchange)",
+        "Emerging technologies",
+        "Mathematics education",
+        "Computer science"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.979926+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W4317748910",
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+      "year": 2023,
+      "doi": "https://doi.org/10.6028/nist.ai.100-1",
+      "venue": null,
+      "authors": [
+        "Elham Tabassi"
+      ],
+      "cited_by_count": 1126,
+      "type": "report",
+      "open_access_url": "https://doi.org/10.6028/nist.ai.100-1",
+      "abstract": "As directed by the National Artificial Intelligence Initiative Act of 2020 (P.L. 116-283), the goal of the AI RMF is to offer a resource to the organizations designing, developing, deploying, or using AI systems to help manage the many risks of AI and promote trustworthy and responsible development and use of AI systems. The Framework is intended to be voluntary, rights-preserving, non-sector specific, and use-case agnostic, providing flexibility to organizations of all sizes and in all sectors and throughout society to implement the approaches in the Framework. The AI RMF is intended to be practical, to adapt to the AI landscape as AI technologies continue to develop, and to be operationalized by organizations in varying degrees and capacities so society can benefit from AI while also being protected from its potential harms.",
+      "concepts": [
+        "Operationalization",
+        "Flexibility (engineering)",
+        "Trustworthiness",
+        "Artificial intelligence",
+        "Computer science",
+        "Resource (disambiguation)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.979926+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W3093821457",
+      "title": "Artificial intelligence and innovation management: A review, framework, and research agenda✰",
+      "year": 2020,
+      "doi": "https://doi.org/10.1016/j.techfore.2020.120392",
+      "venue": "Technological Forecasting and Social Change",
+      "authors": [
+        "Naomi Haefner",
+        "Joakim Wincent",
+        "Vinit Parida",
+        "Oliver Gassmann"
+      ],
+      "cited_by_count": 1064,
+      "type": "article",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S004016252031218X/pdf",
+      "abstract": "Artificial Intelligence (AI) reshapes companies and how innovation management is organized. Consistent with rapid technological development and the replacement of human organization, AI may indeed compel management to rethink a company's entire innovation process. In response, we review and explore the implications for future innovation management. Using ideas from the Carnegie School and the behavioral theory of the firm, we review the implications for innovation management of AI technologies and machine learning-based AI systems. We outline a framework showing the extent to which AI can replace humans and explain what is important to consider in making the transformation to the digital organization of innovation. We conclude our study by exploring directions for future research.",
+      "concepts": [
+        "Knowledge management",
+        "Innovation management",
+        "Process (computing)",
+        "Innovation process",
+        "Digital transformation",
+        "Technology management"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.979926+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W3035286874",
+      "title": "Ethical and legal challenges of artificial intelligence-driven healthcare",
+      "year": 2020,
+      "doi": "https://doi.org/10.1016/b978-0-12-818438-7.00012-5",
+      "venue": "Elsevier eBooks",
+      "authors": [
+        "Sara Gerke",
+        "Timo Minssen",
+        "Glenn Cohen"
+      ],
+      "cited_by_count": 1055,
+      "type": "book-chapter",
+      "open_access_url": "https://www.accenture.com/_acnmedia/pdf-49/accenture-health-artificial-intelligence.pdf",
+      "abstract": "",
+      "concepts": [
+        "Transparency (behavior)",
+        "Section (typography)",
+        "Engineering ethics",
+        "Liability",
+        "Health care",
+        "Intellectual property"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.979926+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W4224990248",
+      "title": "Artificial Intelligence and Jobs: Evidence from Online Vacancies",
+      "year": 2022,
+      "doi": "https://doi.org/10.1086/718327",
+      "venue": "Journal of Labor Economics",
+      "authors": [
+        "Daron Acemoğlu",
+        "David Autor",
+        "Jonathon Hazell",
+        "Pascual Restrepo"
+      ],
+      "cited_by_count": 1035,
+      "type": "article",
+      "open_access_url": "https://researchonline.lse.ac.uk/id/eprint/113325/1/AI_And_Jobs.pdf",
+      "abstract": "We study the impact of artificial intelligence (AI) on labor markets using establishment-level data on the near universe of online vacancies in the United States from 2010 onward. There is rapid growth in AI-related vacancies over 2010–18 that is driven by establishments whose workers engage in tasks compatible with AI’s current capabilities. As these AI-exposed establishments adopt AI, they simultaneously reduce hiring in non-AI positions and change the skill requirements of remaining postings. While visible at the establishment level, the aggregate impacts of AI-labor substitution on employment and wage growth in more exposed occupations and industries is currently too small to be detectable.",
+      "concepts": [
+        "Wage growth",
+        "Labour economics",
+        "Wage",
+        "Aggregate (composite)",
+        "Economics",
+        "Substitution (logic)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.979926+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W4379470483",
+      "title": "A Review of the Role of Artificial Intelligence in Healthcare",
+      "year": 2023,
+      "doi": "https://doi.org/10.3390/jpm13060951",
+      "venue": "Journal of Personalized Medicine",
+      "authors": [
+        "Ahmed Al Kuwaiti",
+        "Khalid Nazer",
+        "Abdullah H. Alreedy",
+        "Shaher D AlShehri",
+        "Afnan Almuhanna",
+        "Arun Vijay Subbarayalu",
+        "Dhoha Al Muhanna",
+        "Fahad Al‐Muhanna"
+      ],
+      "cited_by_count": 902,
+      "type": "article",
+      "open_access_url": "https://www.mdpi.com/2075-4426/13/6/951/pdf?version=1685933257",
+      "abstract": "Artificial intelligence (AI) applications have transformed healthcare. This study is based on a general literature review uncovering the role of AI in healthcare and focuses on the following key aspects: (i) medical imaging and diagnostics, (ii) virtual patient care, (iii) medical research and drug discovery, (iv) patient engagement and compliance, (v) rehabilitation, and (vi) other administrative applications. The impact of AI is observed in detecting clinical conditions in medical imaging and diagnostic services, controlling the outbreak of coronavirus disease 2019 (COVID-19) with early diagnosis, providing virtual patient care using AI-powered tools, managing electronic health records, augmenting patient engagement and compliance with the treatment plan, reducing the administrative workload of healthcare professionals (HCPs), discovering new drugs and vaccines, spotting medical prescription errors, extensive data storage and analysis, and technology-assisted rehabilitation. Nevertheless, this science pitch meets several technical, ethical, and social challenges, including privacy, safety, the right to decide and try, costs, information and consent, access, and efficacy, while integrating AI into healthcare. The governance of AI applications is crucial for patient safety and accountability and for raising HCPs' belief in enhancing acceptance and boosting significant health consequences. Effective governance is a prerequisite to precisely address regulatory, ethical, and trust issues while advancing the acceptance and implementation of AI. Since COVID-19 hit the global health system, the concept of AI has created a revolution in healthcare, and such an uprising could be another step forward to meet future healthcare needs.",
+      "concepts": [
+        "Health care",
+        "Corporate governance",
+        "Medicine",
+        "Accountability",
+        "Knowledge management",
+        "Business"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.979926+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W2924260403",
+      "title": "Toward understanding the impact of artificial intelligence on labor",
+      "year": 2019,
+      "doi": "https://doi.org/10.1073/pnas.1900949116",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors": [
+        "Morgan R. Frank",
+        "David Autor",
+        "James Bessen",
+        "Erik Brynjolfsson",
+        "Manuel Cebrián",
+        "David J Deming",
+        "Maryann P. Feldman",
+        "Matthew Groh"
+      ],
+      "cited_by_count": 714,
+      "type": "article",
+      "open_access_url": "https://www.pnas.org/content/pnas/116/14/6531.full.pdf",
+      "abstract": "Rapid advances in artificial intelligence (AI) and automation technologies have the potential to significantly disrupt labor markets. While AI and automation can augment the productivity of some workers, they can replace the work done by others and will likely transform almost all occupations at least to some degree. Rising automation is happening in a period of growing economic inequality, raising fears of mass technological unemployment and a renewed call for policy efforts to address the consequences of technological change. In this paper we discuss the barriers that inhibit scientists from measuring the effects of AI and automation on the future of work. These barriers include the lack of high-quality data about the nature of work (e.g., the dynamic requirements of occupations), lack of empirically informed models of key microlevel processes (e.g., skill substitution and human-machine complementarity), and insufficient understanding of how cognitive technologies interact with broader economic dynamics and institutional mechanisms (e.g., urban migration and international trade policy). Overcoming these barriers requires improvements in the longitudinal and spatial resolution of data, as well as refinements to data on workplace skills. These improvements will enable multidisciplinary research to quantitatively monitor and predict the complex evolution of work in tandem with technological progress. Finally, given the fundamental uncertainty in predicting technological change, we recommend developing a decision framework that focuses on resilience to unexpected scenarios in addition to general equilibrium behavior.",
+      "concepts": [
+        "Technological change",
+        "Automation",
+        "Productivity",
+        "Unemployment",
+        "Emerging technologies",
+        "Complementarity (molecular biology)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.979926+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W2783386352",
+      "title": "Artificial Intelligence, Automation and Work",
+      "year": 2018,
+      "doi": "https://doi.org/10.3386/w24196",
+      "venue": "National Bureau of Economic Research",
+      "authors": [
+        "Daron Acemoğlu",
+        "Pascual Restrepo"
+      ],
+      "cited_by_count": 714,
+      "type": "report",
+      "open_access_url": "https://doi.org/10.3386/w24196",
+      "abstract": "We summarize a framework for the study of the implications of automation and AI on the demand for labor, wages, and employment.Our task-based framework emphasizes the displacement effect that automation creates as machines and AI replace labor in tasks that it used to perform.This displacement effect tends to reduce the demand for labor and wages.But it is counteracted by a productivity effect, resulting from the cost savings generated by automation, which increase the demand for labor in non-automated tasks.The productivity effect is complemented by additional capital accumulation and the deepening of automation (improvements of existing machinery), both of which further increase the demand for labor.These countervailing effects are incomplete.Even when they are strong, automation in-creases output per worker more than wages and reduce the share of labor in national income.The more powerful countervailing force against automation is the creation of new labor-intensive tasks, which reinstates labor in new activities and tends to increase the labor share to counterbalance the impact of automation.Our framework also highlights the constraints and imperfections that slow down the adjustment of the economy and the labor market to automation and weaken the resulting productivity gains from this transformation: a mismatch between the skill requirements of new technologies, and the possibility that automation is being introduced at an excessive rate, possibly at the expense of other productivity-enhancing technologies.",
+      "concepts": [
+        "Automation",
+        "Work (physics)",
+        "Computer science",
+        "Artificial intelligence",
+        "Engineering",
+        "Mechanical engineering"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.979926+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W4224912036",
+      "title": "Personalized education and Artificial Intelligence in the United States, China, and India: A systematic review using a Human-In-The-Loop model",
+      "year": 2022,
+      "doi": "https://doi.org/10.1016/j.caeai.2022.100068",
+      "venue": "Computers and Education Artificial Intelligence",
+      "authors": [
+        "Aditi Bhutoria"
+      ],
+      "cited_by_count": 665,
+      "type": "review",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S2666920X22000236/pdf",
+      "abstract": "The traditional “one size fits all” education system has been largely criticized in recent years on the ground of its lacking the capacity to meet individual student needs. Global education systems are leaning towards a more personalized, student-centered approach. Innovations like Big Data, Machine Learning, and Artificial Intelligence (AI) have given the modern-day technology to accommodate the distinctive features of human beings - smart machines and computers have been built to understand individual-specific needs. This opens an avenue for “personalization” in the education sector. From, mushrooming of Education Technology (EdTech) start-ups to government funding in AI research, it is evident that the next generation educational reforms would take a quantum leap forward piloted by Big Data analysis and AI. The objective of this paper is to organize the vast literature on the use of AI for personalization of education and to shed light on the key themes by which an AI-driven approach makes structural modifications to the existing education system. To this effect, the paper employed a systematic review using a Human-In-The-Loop natural language processing model of past two years' literature (2019–2021) in English language from IEEE Xplore on countries China, India and the USA. This process yielded more than 2000 search results at first and these were eventually shortlisted to 353 relevant papers for in-depth analysis. Being the pioneers in EdTech innovations, insights from research done in these three countries provides valuable input for the development of global education systems and research. The findings bring forward AI's success in catering to specific learning requirements, learning habits, and learning abilities of students and guiding them into optimized learning paths across all three countries. Not just that, it is also evident from the literature that AI augments educational content, customizes it for any individual according to their needs, and raises",
+      "concepts": [
+        "Personalization",
+        "Big data",
+        "Government (linguistics)",
+        "Computer science",
+        "China",
+        "Process (computing)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.083955+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W2981296841",
+      "title": "Introducing Artificial Intelligence Training in Medical Education",
+      "year": 2019,
+      "doi": "https://doi.org/10.2196/16048",
+      "venue": "JMIR Medical Education",
+      "authors": [
+        "Ketan Paranjape",
+        "Michiel Schinkel",
+        "Rishi S. Nannan Panday",
+        "Josip Car",
+        "Prabath W.B. Nanayakkara"
+      ],
+      "cited_by_count": 658,
+      "type": "article",
+      "open_access_url": "https://doi.org/10.2196/16048",
+      "abstract": "Health care is evolving and with it the need to reform medical education. As the practice of medicine enters the age of artificial intelligence (AI), the use of data to improve clinical decision making will grow, pushing the need for skillful medicine-machine interaction. As the rate of medical knowledge grows, technologies such as AI are needed to enable health care professionals to effectively use this knowledge to practice medicine. Medical professionals need to be adequately trained in this new technology, its advantages to improve cost, quality, and access to health care, and its shortfalls such as transparency and liability. AI needs to be seamlessly integrated across different aspects of the curriculum. In this paper, we have addressed the state of medical education at present and have recommended a framework on how to evolve the medical education curriculum to include AI.",
+      "concepts": [
+        "Curriculum",
+        "Transparency (behavior)",
+        "Health care",
+        "Medical education",
+        "Liability",
+        "Medical knowledge"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.294430+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W2905655852",
+      "title": "Living Planet Report 2018: Aiming Higher",
+      "year": 2018,
+      "doi": null,
+      "venue": "IIASA PURE (International Institute of Applied Systems Analysis)",
+      "authors": [
+        "Mark Barrett",
+        "Alan S. Belward",
+        "S Bladen",
+        "Tom D. Breeze",
+        "Neil D. Burgess",
+        "Stuart H. M. Butchart",
+        "H. Clewclow",
+        "Sarah Cornell"
+      ],
+      "cited_by_count": 623,
+      "type": "other",
+      "open_access_url": "http://pure.iiasa.ac.at/id/eprint/15549/1/%255bEMBARGO%2030%20OCT%255d%20LPR2018_Full%20Report_12.10.2018.pdf",
+      "abstract": "Setting the scene10 Chapter 1: Why biodiversity matters 12 Chapter 2: The threats and pressures wiping out our world 26 Chapter 3: Biodiversity in a changing world 88 Chapter 4: Aiming higher, what future do we want?",
+      "concepts": [
+        "Planet",
+        "Astrobiology",
+        "Astronomy",
+        "Physics"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.083955+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W4390507962",
+      "title": "Corporate social responsibility and green supply chain efficiency: conditioning effects based on CEO narcissism",
+      "year": 2024,
+      "doi": "https://doi.org/10.1057/s41599-023-02237-1",
+      "venue": "Humanities and Social Sciences Communications",
+      "authors": [
+        "Feimei Liao",
+        "Yaoyao Hu",
+        "Songqin Ye"
+      ],
+      "cited_by_count": 430,
+      "type": "article",
+      "open_access_url": "https://www.nature.com/articles/s41599-023-02237-1.pdf",
+      "abstract": "Abstract Accelerating the construction of the green supply chain system and improving the efficiency of the green supply chain is the key to promoting the high-quality development of enterprises. In view of this, based on stakeholder theory, higher order theory and expectancy theory, this study focuses on the impact of corporate social responsibility (CSR) on corporate green supply chain efficiency (GSCE) and the moderating role of chief executive officer (CEO) narcissism. A regression analysis of the observed sample reveals that CSR significantly enhances GSCE. Further decomposing CSR into internal CSR and external CSR to reveal the impact of different types of CSR on GSCE, we find that internal CSR fulfillment has a significant positive impact on GSCE, and this relationship is strengthened when CEOs are narcissistic. Furthermore, external CSR has a significant negative impact on GSCE, and this relationship is also strengthened by CEO narcissism. The main contribution of this paper is to study the relationship between CSR and green supply chain efficiency, decompose CSR into internal and external CSR, enrich the research on the intrinsic mechanism of value creation of CSR. It also enriches the research in the context of CSR from the perspective of CEO personality traits, providing new ideas and suggestions for manager selection and corporate greening governance in practice.",
+      "concepts": [
+        "Corporate social responsibility",
+        "Business",
+        "Supply chain",
+        "Narcissism",
+        "Stakeholder theory",
+        "Context (archaeology)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.083955+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W4321506460",
+      "title": "The Impact of Artificial Intelligence on Workers’ Skills: Upskilling and Reskilling in Organisations",
+      "year": 2023,
+      "doi": "https://doi.org/10.28945/5078",
+      "venue": "Informing Science The International Journal of an Emerging Transdiscipline",
+      "authors": [
+        "Sofia Morandini",
+        "Federico Fraboni",
+        "Marco De Angelis",
+        "Gabriele Puzzo",
+        "Davide Giusino",
+        "Luca Pietrantoni"
+      ],
+      "cited_by_count": 427,
+      "type": "article",
+      "open_access_url": "http://www.inform.nu/Articles/Vol26/InfoSciV26p039-068Morandini8895.pdf",
+      "abstract": "Aim/Purpose: This paper examines the transformative impact of Artificial Intelligence (AI) on professional skills in organizations and explores strategies to address the resulting challenges. Background: The rapid integration of AI across various sectors is automating tasks and reducing cognitive workload, leading to increased productivity but also raising concerns about job displacement. Successfully adapting to this transformation requires organizations to implement new working models and develop strategies for upskilling and reskilling their workforce. Methodology: This review analyzes recent research and practice on AI's impact on human skills in organizations. We identify key trends in how AI is reshaping professional competencies and highlight the crucial role of transversal skills in this evolving landscape. The paper also discusses effective strategies to support organizations and guide workers through upskilling and reskilling processes. Contribution: The paper contributes to the existing body of knowledge by examining recent trends in AI's impact on professional skills and workplaces. It emphasizes the importance of transversal skills and identifies strategies to support organizations and workers in meeting upskilling and reskilling challenges. Our findings suggest that investing in workforce development is crucial for ensuring that the benefits of AI are equitably distributed among all stakeholders. Findings: Our findings indicate that organizations must employ a proactive approach to navigate the AI-driven transformation of the workplace. This approach involves mapping the transversal skills needed to address current skill gaps, helping workers identify and develop skills required for effective AI adoption, and implementing processes to support workers through targeted training and development opportunities. These strategies are essential for ensuring that workers' attitudes and mental models towards AI are adaptable and prepared for the changing labor m",
+      "concepts": [
+        "Process (computing)",
+        "Knowledge management",
+        "Productivity",
+        "Diversity (politics)",
+        "Inclusion (mineral)",
+        "Work (physics)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:02.980942+00:00",
+      "evidence_level": "A",
+      "query": "artificial intelligence workforce skills demand"
+    },
+    {
+      "work_id": "https://openalex.org/W3045036534",
+      "title": "Graduate Employability and Competence Development in Higher Education—A Systematic Literature Review Using PRISMA",
+      "year": 2020,
+      "doi": "https://doi.org/10.3390/su12155900",
+      "venue": "Sustainability",
+      "authors": [
+        "Marta Abelha",
+        "Sandra Raquel Gonçalves Fernandes",
+        "Diana Mesquita",
+        "Filipa Seabra",
+        "Ana Teresa Ferreira-Oliveira"
+      ],
+      "cited_by_count": 401,
+      "type": "review",
+      "open_access_url": "https://www.mdpi.com/2071-1050/12/15/5900/pdf?version=1595416758",
+      "abstract": "This paper aims to develop a systematic review on graduate employability and competence development, intending to present an international perspective on the matter. It analyses the role of higher education institutions in promoting the development of competences for employability. The Preferred Reporting Items for Systematic Reviews (PRISMA) statement was used as a formal systematic review guideline for data collection. Data was obtained from research studies over the period 2009–2019. The analysis included a total of 69 papers from Web of Science (WoS) and Scopus databases. Results show that Europe leads the number of publications on these topics during the past decade. One of the main issues associated with competence development and graduate employability found in the review is related to the (mis)match between university graduates’ competences and employers’ needs. Findings indicate that higher education institutions are concerned with using strategies to enhance the development of competences for graduate employability. Graduate employability and competence development around the world depend on a strong sense of innovation and collaboration practices implemented in higher education.",
+      "concepts": [
+        "Employability",
+        "Competence (human resources)",
+        "Scopus",
+        "Systematic review",
+        "Higher education",
+        "Medical education"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.083955+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W3087233101",
+      "title": "Am I Fit for Tomorrow’s Labor Market? The Effect of Graduates’ Skills Development during Higher Education for the 21st Century’s Labor Market",
+      "year": 2020,
+      "doi": "https://doi.org/10.3390/su12187746",
+      "venue": "Sustainability",
+      "authors": [
+        "Omar Habets",
+        "Jol Stoffers",
+        "Béatrice van der Heijden",
+        "Pascale Peters"
+      ],
+      "cited_by_count": 321,
+      "type": "article",
+      "open_access_url": "https://www.mdpi.com/2071-1050/12/18/7746/pdf?version=1600860558",
+      "abstract": "This study contributes to the employability skills debate by investigating how students’ self-perceived 21st century skills relate to the self-perceived fit between their higher education curriculum and their future labor market for a sustainable entry to this labor market. Survey data from 4670 fourth-year students over a period of four years were analyzed. Furthermore, out of this group, 83 students were monitored longitudinally over their full educational student careers. Results showed a positive relationship between students’ self-perceived 21st century skills and their self-perceived “education-future labor market fit”. Among more recent cohorts, a significant improvement in their self-perceived 21st century skills was found. Overall, this study indicated that in order to deliver “employable” graduates, students need to be thoroughly trained in 21st century skills, and their development should be retained and expanded. This is one of the few studies that uses a vast amount of both cross-sectional and longitudinal data on skills and labor market perspectives among new graduates.",
+      "concepts": [
+        "Employability",
+        "Curriculum",
+        "Psychology",
+        "Order (exchange)",
+        "Higher education",
+        "Medical education"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:00.412100+00:00",
+      "evidence_level": "A",
+      "query": "graduate employability skills gap curriculum"
+    },
+    {
+      "work_id": "https://openalex.org/W2529564876",
+      "title": "Global Talent Flows",
+      "year": 2016,
+      "doi": "https://doi.org/10.1257/jep.30.4.83",
+      "venue": "The Journal of Economic Perspectives",
+      "authors": [
+        "Sari Pekkala Kerr",
+        "William Revill Kerr",
+        "Çağlar Özden",
+        "Christopher Robert Parsons"
+      ],
+      "cited_by_count": 302,
+      "type": "article",
+      "open_access_url": "https://www.aeaweb.org/articles/pdf/doi/10.1257/jep.30.4.83",
+      "abstract": "Highly skilled workers play a central and starring role in today's knowledge economy. Talented individuals make exceptional direct contributions—including breakthrough innovations and scientific discoveries—and coordinate and guide the actions of many others, propelling the knowledge frontier and spurring economic growth. In this process, the mobility of skilled workers becomes critical to enhancing productivity. Substantial attention has been paid to understanding the worldwide distribution of talent and how global migration flows further tilt the deck. Using newly available data, we first review the landscape of global talent mobility. We next consider the determinants of global talent flows at the individual and firm levels and sketch some important implications. Third, we review the national gatekeepers for skilled migration and broad differences in approaches used to select migrants for admission. Looking forward, the capacity of people, firms, and countries to successfully navigate this tangled web of global talent will be critical to their success.",
+      "concepts": [
+        "Frontier",
+        "Productivity",
+        "Sketch",
+        "Process (computing)",
+        "Business",
+        "Economic geography"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.083027+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W3034639600",
+      "title": "What actually works to enhance graduate employability? The relative value of curricular, co-curricular, and extra-curricular learning and paid work",
+      "year": 2020,
+      "doi": "https://doi.org/10.1007/s10734-020-00570-x",
+      "venue": "Higher Education",
+      "authors": [
+        "Denise A Jackson",
+        "Ruth Bridgstock"
+      ],
+      "cited_by_count": 301,
+      "type": "article",
+      "open_access_url": "https://eprints.qut.edu.au/202223/1/Relative_value_of_learning_activities.pdf",
+      "abstract": "",
+      "concepts": [
+        "Employability",
+        "Internship",
+        "Value (mathematics)",
+        "Work (physics)",
+        "Pedagogy",
+        "Higher education"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:00.412100+00:00",
+      "evidence_level": "A",
+      "query": "graduate employability skills gap curriculum"
+    },
+    {
+      "work_id": "https://openalex.org/W1653984643",
+      "title": "The Value of Postsecondary Credentials in the Labor Market: An Experimental Study",
+      "year": 2016,
+      "doi": "https://doi.org/10.1257/aer.20141757",
+      "venue": "American Economic Review",
+      "authors": [
+        "David J Deming",
+        "Noam Yuchtman",
+        "Amira Abulafi",
+        "Claudia Dale Goldin",
+        "Lawrence F. Katz"
+      ],
+      "cited_by_count": 289,
+      "type": "article",
+      "open_access_url": "https://www.aeaweb.org/articles/pdf/doi/10.1257/aer.20141757",
+      "abstract": "We study employers' perceptions of the value of postsecondary degrees using a field experiment. We randomly assign the sector and selectivity of institutions to fictitious resumes and apply to real vacancy postings for business and health jobs on a large online job board. We find that a business bachelor's degree from a for-profit online institution is 22 percent less likely to receive a callback than one from a nonselective public institution. In applications to health jobs, we find that for-profit credentials receive fewer callbacks unless the job requires an external quality indicator such as an occupational license. (JEL I23, I26, J24, J44, J63, M51)",
+      "concepts": [
+        "Callback",
+        "License",
+        "Labour economics",
+        "Economics",
+        "Business",
+        "Marketing"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.294430+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W3159166832",
+      "title": "Intelligent recruitment: How to identify, select, and retain talents from around the world using artificial intelligence",
+      "year": 2021,
+      "doi": "https://doi.org/10.1016/j.techfore.2021.120822",
+      "venue": "Technological Forecasting and Social Change",
+      "authors": [
+        "Oihab Allal‐Chérif",
+        "Alba Yela Aránega",
+        "Rafael Castaño Sánchez"
+      ],
+      "cited_by_count": 284,
+      "type": "article",
+      "open_access_url": "https://ebuah.uah.es/dspace/bitstream/10017/59328/3/Intelligent_Allal-Cherif_TFSC_2021.pdf",
+      "abstract": "",
+      "concepts": [
+        "Matching (statistics)",
+        "Identification (biology)",
+        "Chatbot",
+        "Process (computing)",
+        "Computer science",
+        "Knowledge management"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.083955+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W3016763801",
+      "title": "Employability skills for 21st-century STEM students: the employers' perspective",
+      "year": 2020,
+      "doi": "https://doi.org/10.1108/heswbl-10-2019-0148",
+      "venue": "Higher Education Skills and Work-based Learning",
+      "authors": [
+        "Doreen McGunagle",
+        "Laura Zizka"
+      ],
+      "cited_by_count": 266,
+      "type": "article",
+      "open_access_url": "https://commons.erau.edu/publication/1395",
+      "abstract": "Purpose One of the goals of educational institutions is to prepare their graduates to be workplace-ready. The purpose of this paper is to identify the employability skills lacking in the Science, Technology, Engineering and Math (STEM) industry from employers' perspectives to assist STEM educational institutions in creating more relevant programs inclusive of employability skills. Design/methodology/approach This study addresses 16 job-specific skills based on data deriving from the responses of 250 Human Resource Managers (HRMs) who represent five manufacturing industries (Aerospace and Defense, Automotive, Consumer Products, Electronics and Industrial Manufacturing) located in five regions (Northeast, Midwest, Southeast, West-Mountain and Pacific) of the United States. Findings The median scores for all 16 skills confirmed their importance for employability in the five manufacturing industries. The five highest ranking skills were team player, self-motivation, verbal communication, problem-solving and being proactive, which align with previous studies on workplace skills. Research limitations/implications This paper is a call to all STEM educational institution stakeholders, both internal and external, to re-assess current curriculum and programs and collaborate to narrow the gap between graduate competencies and the practical needs of the workplace. Originality/value This paper attempts to bridge the gap between the competencies gained in STEM educational institutions and the competencies needed for the future workplace, as confirmed by HRM professionals. Although this study is focused on STEM educational institutions in the United States, it will be of interest to all STEM educational institutions worldwide who play a significant role in preparing the next generation of employees for the global workplace.",
+      "concepts": [
+        "Employability",
+        "Curriculum",
+        "Originality",
+        "Public relations",
+        "Value (mathematics)",
+        "Medical education"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:00.410100+00:00",
+      "evidence_level": "A",
+      "query": "graduate employability skills gap curriculum"
+    },
+    {
+      "work_id": "https://openalex.org/W2917546397",
+      "title": "The role of authentic assessment to preserve academic integrity and promote skill development and employability",
+      "year": 2019,
+      "doi": "https://doi.org/10.1080/03075079.2019.1582015",
+      "venue": "Studies in Higher Education",
+      "authors": [
+        "Popi Sotiriadou",
+        "Danielle Logan-Fleming",
+        "Amanda Daly",
+        "ROSS S. GUEST"
+      ],
+      "cited_by_count": 263,
+      "type": "article",
+      "open_access_url": "https://research-repository.griffith.edu.au/bitstreams/db7d359b-3413-4875-8812-e05b4e61daba/download",
+      "abstract": "Promoting authenticity and academic integrity in assessment continues to present a priority for educational institutions. Besides providing the foundation for high academic standards and best practice, authentic assessments and academic integrity enrich students with skills that advance their employability. Given the multilayered significance of, and need for promoting academic integrity, this study used a suite of scaffolded authentic assessments that culminated with interactive oral examinations. A survey evaluated the effectiveness of interactive oral exams in offering authentic assessments that would prevent students from engaging in academic misconduct and help them improve their skill and employability prospects. The results show that scaffolded assessment tasks that include interactive orals help prevent academic misconduct. The more relevant the assessment to real-world scenarios, the less likely students are to engage in misconduct. Additionally, interactive oral exams enabled students to develop their professional identity and awareness, and communications skills, and help promote employability.",
+      "concepts": [
+        "Employability",
+        "Academic integrity",
+        "Misconduct",
+        "Psychology",
+        "Medical education",
+        "Higher education"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:00.412100+00:00",
+      "evidence_level": "A",
+      "query": "graduate employability skills gap curriculum"
+    },
+    {
+      "work_id": "https://openalex.org/W4376564338",
+      "title": "Time to Revisit Existing Student’s Performance Evaluation Approach in Higher Education Sector in a New Era of ChatGPT — A Case Study",
+      "year": 2023,
+      "doi": "https://doi.org/10.1080/2331186x.2023.2210461",
+      "venue": "Cogent Education",
+      "authors": [
+        "Iffat Sabir Chaudhry",
+        "Sayed Ahmad M. Sarwary",
+        "Ghaleb Awad El Refae",
+        "Habib Chabchoub"
+      ],
+      "cited_by_count": 259,
+      "type": "article",
+      "open_access_url": "https://www.tandfonline.com/doi/pdf/10.1080/2331186X.2023.2210461?download=true",
+      "abstract": "response based on provided input-it has become crucial for HEIs to be exposed to the implications of AI-based tools on students' learning outcomes, commonly measured using an assessment-based approach to improve program quality, teaching effectiveness, and other learning support.An empirical study has been conducted to test the ChatGPT capability of solving a variety of assignments (from different level courses of undergraduate degree programs) to compare its performance with the highest scored student(s).Further, the ChatGPT-generated assignments were tested using the best-known tools for plagiarism detection to determine whether they could pass the academic integrity tests, including Turnitin, GPTZero, and Copyleaks.The study reported the limitations of the Bot and highlighted the implications of the newly launched AI-based ChatGPT in academia, which calls for HEIs' managers and regulators to revisit their existing practices used to monitor students' learning progress and improve their educational programs.",
+      "concepts": [
+        "Higher education",
+        "Variety (cybernetics)",
+        "Empirical research",
+        "Field (mathematics)",
+        "Test (biology)",
+        "Computer science"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.085228+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W3183611758",
+      "title": "Employability in higher education: a review of key stakeholders' perspectives",
+      "year": 2021,
+      "doi": "https://doi.org/10.1108/heed-03-2021-0025",
+      "venue": "Higher Education Evaluation and Development",
+      "authors": [
+        "Ming Cheng",
+        "Olalekan Adeban Adekola",
+        "Joclarisse Albia",
+        "Sanfa Cai"
+      ],
+      "cited_by_count": 248,
+      "type": "article",
+      "open_access_url": "https://www.emerald.com/insight/content/doi/10.1108/HEED-03-2021-0025/full/pdf?title=employability-in-higher-education-a-review-of-key-stakeholders-perspectives",
+      "abstract": "Purpose Employability is a key concept in higher education. Graduate employment rate is often used to assess the quality of university provision, despite that employability and employment are two different concepts. This paper will increase the understandings of graduate employability through interpreting its meaning and whose responsibility for graduate employability from the perspectives of four key stakeholders: higher education institutions, students, government and employers. Design/methodology/approach There are two stages to this literature review which was undertaken across bibliographic databases. The first stage builds a conceptual understanding of employability, relating to definition and how employability can be achieved and enhanced from the perspective of stakeholders. A structured search employing Boolean searches was conducted using a range of terms associated with key stakeholders. The second round of review drew on documentary analysis of official statements, declarations, documents, reports and position papers issued by key stakeholders in the UK, available online. Findings It reveals that responsibility for employability has been transferred by the UK government to higher education institutions, despite clear evidence that it needs to be shared by all the key stakeholders to be effective. In addition, there is a gap between employers' expectation for employability and the government's employability agenda. Originality/value This article highlights that solely using employment rate statistics as a key indicator for employability will encourage the practice of putting employers' needs above knowledge creation and the development of academic disciplines, with the consequence that higher education will become increasingly vocation driven.",
+      "concepts": [
+        "Employability",
+        "Government (linguistics)",
+        "Public relations",
+        "Higher education",
+        "Originality",
+        "Meaning (existential)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:00.413111+00:00",
+      "evidence_level": "A",
+      "query": "graduate employability skills gap curriculum"
+    },
+    {
+      "work_id": "https://openalex.org/W2946847898",
+      "title": "HR disruption—Time already to reinvent talent management",
+      "year": 2019,
+      "doi": "https://doi.org/10.1016/j.brq.2019.04.002",
+      "venue": "BRQ Business Research Quarterly",
+      "authors": [
+        "Lisbeth Claus"
+      ],
+      "cited_by_count": 228,
+      "type": "article",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S2340943619302129/pdf",
+      "abstract": "Rapid changes in demographics, technology and globalization have considerable global implications for work and the worker. This new context is also disrupting talent management as known for the last two decades. Progressive companies in all sectors realize that their talent management practices are no longer meeting the needs of their workers. Instead, employers focus their attention on developing a meaningful employee experience to attract and nurture the talent they need. A new breed of talent management practitioners is developing an HR stack that includes other management frameworks such as design thinking, agile management, behavioral economics and analytics to augment their HR competencies. Organizations will be unable to reinvent their existing talent management practices in a sustainable way unless they broaden the talent management conversation.",
+      "concepts": [
+        "Talent management",
+        "Nature versus nurture",
+        "Business",
+        "Context (archaeology)",
+        "Agile software development",
+        "Human resource management"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.083955+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W2976689229",
+      "title": "Big Data and Human Resources Management: The Rise of Talent Analytics",
+      "year": 2019,
+      "doi": "https://doi.org/10.3390/socsci8100273",
+      "venue": "Social Sciences",
+      "authors": [
+        "Manuela Nocker",
+        "Vania Sena"
+      ],
+      "cited_by_count": 181,
+      "type": "article",
+      "open_access_url": "https://www.mdpi.com/2076-0760/8/10/273/pdf?version=1570869084",
+      "abstract": "The purpose of this paper is to discuss the opportunities talent analytics offers HR practitioners. As the availability of methodologies for the analysis of large volumes of data has substantially improved over the last ten years, talent analytics has started to be used by organizations to manage their workforce. This paper discusses the benefits and costs associated with the use of talent analytics within an organization as well as to highlight the differences between talent analytics and other sub-fields of business analytics. It will discuss a number of case studies on how talent analytics can improve organizational decision-making. From the case studies, we will identify key channels through which the adoption of talent analytics can improve the performance of the HR function and eventually of the whole organization. While discussing the opportunities that talent analytics offer organizations, this paper highlights the costs (in terms of data governance and ethics) that the widespread use of talent analytics can generate. Finally, it highlights the importance of trust in supporting the successful implementation of talent analytics projects.",
+      "concepts": [
+        "Analytics",
+        "Business analytics",
+        "Big data",
+        "Business intelligence",
+        "Data science",
+        "Knowledge management"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.085054+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W2958075928",
+      "title": "Policy networks, performance metrics and platform markets: Charting the expanding data infrastructure of higher education",
+      "year": 2019,
+      "doi": "https://doi.org/10.1111/bjet.12849",
+      "venue": "British Journal of Educational Technology",
+      "authors": [
+        "Ben Williamson"
+      ],
+      "cited_by_count": 171,
+      "type": "article",
+      "open_access_url": "https://www.research.ed.ac.uk/files/109263483/WilliamsonB_Policy_networks_performance_metrics_BJET_2019_1.pdf",
+      "abstract": "Abstract Digital data are transforming higher education (HE) to be more student‐focused and metrics‐centred. In the UK, capturing detailed data about students has become a government priority, with an emphasis on using student data to measure, compare and assess university performance. The purpose of this paper is to examine the governmental and commercial drivers of current large‐scale technological efforts to collect and analyse student data in UK HE. The result is an expanding data infrastructure which includes large‐scale and longitudinal datasets, learning analytics services, student apps, data dashboards and digital learning platforms powered by artificial intelligence (AI). Education data scientists have built positive pedagogic cases for student data analysis, learning analytics and AI. The politicization and commercialization of the wider HE data infrastructure is translating them into performance metrics in an increasingly market‐driven sector, raising the need for policy frameworks for ethical, pedagogically valuable uses of student data in HE. Practitioner Notes What is already known about this topic Learning analytics, education data science and artificial intelligence are opening up new ways of collecting and analysing student data in higher education. UK government policies emphasize the use of student data for improvements to teaching and learning. What this paper adds A conceptual framework from “infrastructure studies” demonstrates how political objectives and commercial aims are fused to HE data systems, with data infrastructure becoming a key tool of government reform. A critical infrastructure analysis shows that student data processing technologies are being developed and deployed to measure university performance through student data. Implications for practice and/or policy Educators and managers in universities need to prepare robust institutional frameworks to govern their use of student data. Learning analytics practitioners, data scientist",
+      "concepts": [
+        "Data science",
+        "Big data",
+        "Computer science",
+        "Analytics",
+        "Government (linguistics)",
+        "Business intelligence"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.295441+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W2744612755",
+      "title": "Developing graduate employability skills and attributes: curriculum enhancement through work-integrated learning",
+      "year": 2017,
+      "doi": null,
+      "venue": "Research Commons (University of Waikato)",
+      "authors": [
+        "Anna Rowe",
+        "Karsten E. Zegwaard"
+      ],
+      "cited_by_count": 160,
+      "type": "article",
+      "open_access_url": "https://hdl.handle.net/10289/11267",
+      "abstract": "Work-integrated learning (WIL) is considered a key strategy for promoting graduate employability. Graduate employability is a complex concept, one which has broadened in recent years to encapsulate a diverse range of skills, attributes, and other measures such as networks, professional-identity and active citizenship. This special issue presents recent scholarship on WIL and employability, addressing the question of how WIL contributes to enhancing employability outcomes for students and graduates. The importance of embedding WIL experiences in the curriculum so they are effectively supported by appropriate pedagogical strategies is emphasized, as well as the provision of quality assessment to support employability outcomes. Such supports, while critical, have resourcing implications for higher education, including impacts on staff workload which also need to be considered. Employability is considered in relation to the related construct of employment outcomes, pointing to ways in which these two perspectives can be better integrated. Recommendations are made for future research.",
+      "concepts": [
+        "Employability",
+        "Curriculum",
+        "Scholarship",
+        "Pedagogy",
+        "Construct (python library)",
+        "Work (physics)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:00.411099+00:00",
+      "evidence_level": "A",
+      "query": "graduate employability skills gap curriculum"
+    },
+    {
+      "work_id": "https://openalex.org/W2791563909",
+      "title": "Discrimination and Administrative Burden in Public Service Markets: Does a Public–Private Difference Exist?",
+      "year": 2018,
+      "doi": "https://doi.org/10.1093/jopart/muy009",
+      "venue": "Journal of Public Administration Research and Theory",
+      "authors": [
+        "Sebastian Jilke",
+        "Wouter Van Dooren",
+        "Sabine Rys"
+      ],
+      "cited_by_count": 157,
+      "type": "article",
+      "open_access_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3107998",
+      "abstract": "Public services are often provided in markets where both public and private providers operate. Irrespective of ownership status, public services ought to be accessible regardless of clients’ race, gender, ethnicity, or age. However, as theories of statistical discrimination and cream skimming suggest, market-based incentives may lead service providers to focus on nonminority clients because they perceive them as easier-to-serve and therefore less costly. This may lead to discrimination and hence jeopardizes equal access. In this study, we ask whether private, for-profit providers are more likely to discriminate on ethnic grounds compared to publicly owned providers. We implement a field experiment within the Flemish elderly care market by sending out email requests with either a Flemish or a Maghrebian name to all public and privately owned nursing homes. For overall response rates, no statistically significant differences between senders were found. However, we do find that privately owned facilities are about 20 percentage points less likely to provide information on how to enroll when the request is send from a Maghrebian name alias, and blinded coders perceive the information sent to the Maghrebian alias as less comprehensive. In publicly owned facilities, no such differences exist. We conclude that a public–private difference does exist, but that the mechanism of discrimination is subtler than expected. Rather than directly refusing to respond, nursing homes increase administrative burdens and learning costs for minority applicants.",
+      "concepts": [
+        "Flemish",
+        "Ethnic group",
+        "Business",
+        "Service provider",
+        "Incentive",
+        "Service (business)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.296507+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W2612743248",
+      "title": "Mirage of Police Reform: Procedural Justice and Police Legitimacy",
+      "year": 2017,
+      "doi": "https://doi.org/10.1525/luminos.30",
+      "venue": null,
+      "authors": [
+        "Robert E. Worden",
+        "Sarah J. McLean"
+      ],
+      "cited_by_count": 141,
+      "type": "book",
+      "open_access_url": "https://www.luminosoa.org/site/books/10.1525/luminos.30/download/1481/",
+      "abstract": "In the United States, the exercise of police authority—and the public’s trust that police authority is used properly—is a recurring concern. Contemporary prescriptions for police reform hold that the public would trust the police more and feel a greater obligation to comply and cooperate if police-citizen interactions were marked by higher levels of procedural justice by police. In this book, Robert E. Worden and Sarah J. McLean argue that the procedural justice model of reform is a mirage. From a distance, procedural justice seems to offer relief from strained police-community relations. But a closer look at police organizations and police-citizen interactions shows that the relief offered by such reform is, in fact, illusory. A procedural justice model of policing is likely to be only loosely coupled with police practice, despite the best intentions, and improvements in procedural justice on the part of police are unlikely to result in corresponding improvements in citizens’ perceptions of procedural justice. “Rigorous and thoughtful, this book’s careful methodology and provocative conclusions on procedural justice illuminate key challenges for political leaders, policy makers, and practitioners who strive to improve police-community relations in America. A must-read for police researchers!” STEVEN MASTROFSKI, George Mason University “This timely book challenges widespread assumptions about procedural justice. It provides a potent reminder that much remains to be learned about how people form perceptions of the police, and how police agencies can influence these perceptions.” EDWARD R. MAGUIRE, Arizona State University “Since Ferguson, the nation has been searching for solutions to the legitimacy crisis that has engulfed policing. Procedural justice was the number one reform put forward by President Obama’s commission. This book digs into this proposal and provides the best evidence to date on how it actually affects police behavior and public acceptance of being ",
+      "concepts": [
+        "Procedural justice",
+        "Police science",
+        "Legitimacy",
+        "Political science",
+        "Criminal justice ethics",
+        "Economic Justice"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.295441+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W1539533139",
+      "title": "Employability skills: perspectives from a knowledge-intensive industry",
+      "year": 2015,
+      "doi": "https://doi.org/10.1108/et-07-2014-0076",
+      "venue": "Education + Training",
+      "authors": [
+        "Christopher Collet",
+        "Damian Charles Hine",
+        "Karen du Plessis"
+      ],
+      "cited_by_count": 135,
+      "type": "article",
+      "open_access_url": "https://eprints.qut.edu.au/84718/3/84718.pdf",
+      "abstract": "Purpose – While the global education debate remains focused on graduate skills and employability, the absence of a shared language between student, academic and industry stakeholder groups means that defining industry skills requirements is both essential and difficult. The purpose of this paper is to assess graduate skills requirements in a knowledge-intensive industry from a demand perspective as distinct from a curriculum (supply) viewpoint. Design/methodology/approach – Skills items were derived from a breadth of disciplines across academic, policy and industry literature. CEOs and senior managers in the innovation and commercialisation industry were surveyed regarding perceptions of skills in graduates and skills in demand by the firm. Two rounds of exploratory factor analyses were undertaken to examine employers’ perceptions of the skills gap. Findings – First-order analysis resolved ten broad constructs that represent cognitive, interpersonal and intrapersonal skills domains as applied in this industry. Knowledge, leadership and interprofessional collaboration feature as prominent skills. Second-order analysis revealed employers’ perceptions of graduate skills specifically centre on organisational fit and organisational success. An over-arching theme relates to performance of the individual in organisations. Research limitations/implications – The findings suggest that the discourse on employability and the design of curriculum need to shift from instilling lists of skills towards enabling graduates to perform in a diversity of workplace contexts and expectations centred on organisational purpose. Originality/value – In contrast to the heterogeneous nature of industry surveys, the authors targeted a homogenous sector that is representative of knowledge-intensive industries. This study contributes to the broader stakeholder dialogue of the value and application of graduate skills in this and other industry sectors.",
+      "concepts": [
+        "Employability",
+        "Stakeholder",
+        "Curriculum",
+        "Psychology",
+        "Skills management",
+        "Social skills"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:00.410100+00:00",
+      "evidence_level": "A",
+      "query": "graduate employability skills gap curriculum"
+    },
+    {
+      "work_id": "https://openalex.org/W2793519818",
+      "title": "Analysis of skill gap for business graduates: managerial perspective from banking industry",
+      "year": 2018,
+      "doi": "https://doi.org/10.1108/et-08-2017-0120",
+      "venue": "Education + Training",
+      "authors": [
+        "Farhad Khurshid Abbasi",
+        "Amjad Ali",
+        "Naila Bibi"
+      ],
+      "cited_by_count": 123,
+      "type": "article",
+      "open_access_url": null,
+      "abstract": "Purpose The purpose of this paper is to identify the gap between skills expected by managers and skills possessed by business graduates employed by banking industry. Design/methodology/approach A questionnaire-based survey was conducted with bank officers under whom fresh business graduates were working. They were asked to indicate the importance of 12 employability skills in the industry and to rate business graduates working under them against these skills. Results are achieved by applying paired samples and independent samples t -tests on data collected from 121 bank officers. Findings Results prove that overall employability skills of the graduates are lesser than expected by the managers. Significant skill gaps were found for listening, problem solving, communication, leadership, interpersonal, analytical, self-management, numeracy and critical thinking. Results also reveal that problem-solving skill of male graduates is superior that that of females. Practical implications The study makes business graduates clear in what skills they are to learn and how it relates to the expectations of managers in banking industry. It helps business schools to revise and improve curriculum of some specialized banking programs according to the needs of the industry. Originality/value This is the first study that investigates the skills required by the banking industry out of business graduates. It also identifies the skill gaps for fresh business graduates from managerial perspective in banking industry of Pakistan.",
+      "concepts": [
+        "Employability",
+        "Originality",
+        "Curriculum",
+        "Skills management",
+        "Perspective (graphical)",
+        "Business education"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:00.411099+00:00",
+      "evidence_level": "A",
+      "query": "graduate employability skills gap curriculum"
+    },
+    {
+      "work_id": "https://openalex.org/W2992480804",
+      "title": "Gaps between competence and importance of employability skills: evidence from Malaysia",
+      "year": 2019,
+      "doi": "https://doi.org/10.1108/heed-08-2019-0039",
+      "venue": "Higher Education Evaluation and Development",
+      "authors": [
+        "Husaina Banu Kenayathulla",
+        "Nor Aziah Ahmad",
+        "Abdul Rahman Idris"
+      ],
+      "cited_by_count": 121,
+      "type": "article",
+      "open_access_url": "https://doi.org/10.1108/heed-08-2019-0039",
+      "abstract": "Purpose The purpose of this paper is to identify the gaps between the importance perceived and the competence gained by the hospitality students in terms of the employability skills. Design/methodology/approach Questionnaires were distributed to 841 hospitality students in five regions in Malaysia. Descriptive and inferential statistics were used to analyze the data. Findings The findings show that there are significant differences between importance perceived and competence attained in teamwork, leadership, basic, technical skills and ethical skills. Additionally, the finding of this study indicates that the culinary and bakery students perceive that they are not given adequate exposure to possess such skills. It is important to ensure that graduates are equipped with the twenty-first century skills such as problem solving and analytic, decision making, organization and time management, risk taking and communication. Research limitations/implications The findings provide insights to curriculum developers and policy makers on the appropriate interventions that need to be taken to improve the employability skills of the graduates. Originality/value An original contribution is made by linking employability model to TVET sector.",
+      "concepts": [
+        "Employability",
+        "Competence (human resources)",
+        "Curriculum",
+        "Hospitality",
+        "Teamwork",
+        "Psychology"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:00.411099+00:00",
+      "evidence_level": "A",
+      "query": "graduate employability skills gap curriculum"
+    },
+    {
+      "work_id": "https://openalex.org/W2905366405",
+      "title": "The political economy of high skills: higher education in knowledge-based labour markets",
+      "year": 2018,
+      "doi": "https://doi.org/10.1080/13501763.2018.1551415",
+      "venue": "Journal of European Public Policy",
+      "authors": [
+        "Niccolò Durazzi"
+      ],
+      "cited_by_count": 104,
+      "type": "article",
+      "open_access_url": "https://www.research.ed.ac.uk/files/77048540/Durazzi_JEPP_2018_PoliticalEconomyHighSkills.pdf",
+      "abstract": "A successful transition into the knowledge economy depends upon higher level skills, creating unprecedented pressure on university systems to provide labour markets with the skills needed. But what are the political economy dynamics underlying national patterns of high skill formation? The article proposes a framework to theorize the relationship between higher education systems and knowledge-based labour markets based on two dimensions: the type of knowledge economy predominant in a given country and the extent of inter-university competition. It is argued that the former explains what type of higher level skills will be sought by employers and cultivated by governments, while the latter helps us understanding why some higher education systems are more open to satisfying labour market demands compared to others. A set of diverse country case studies (Britain, Germany, South Korea and the Netherlands) is employed to illustrate the theory.",
+      "concepts": [
+        "Competition (biology)",
+        "Knowledge economy",
+        "Politics",
+        "Higher education",
+        "Set (abstract data type)",
+        "Transition economy"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.296507+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W2542643088",
+      "title": "Graduate Employability in Context",
+      "year": 2016,
+      "doi": "https://doi.org/10.1057/978-1-137-57168-7",
+      "venue": "Palgrave Macmillan UK eBooks",
+      "authors": [
+        "Ciarán Burke",
+        "Tracy Scurry",
+        "John Blankinsopp",
+        "Katy Graley"
+      ],
+      "cited_by_count": 100,
+      "type": "book",
+      "open_access_url": "https://dspace.lboro.ac.uk/2134/24321",
+      "abstract": "This book explores the highly significant and contested area of graduate employability and employment which is paid so much attention by those in the media and policy-makers. This is driven largely by concerns over the wider economic impact and value of graduates as increasing numbers complete their studies in higher education. At a time when graduates are seen as key to economic success, the critical question remains as to how their employability plays out in a changing labour market. This book brings together innovative approaches and research to present an extensive survey of the field. It provides insight on what is a complex and often elusive social and economic problem, ranging from how graduate employability is constructed as an economic and policy agenda to explorations of how graduates manage the transition from higher education to paid employment and finally to suggest future directions for curricula, policy and research. .",
+      "concepts": [
+        "Employability",
+        "Context (archaeology)",
+        "Graduate students",
+        "Political science",
+        "Sociology",
+        "Pedagogy"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:00.412100+00:00",
+      "evidence_level": "A",
+      "query": "graduate employability skills gap curriculum"
+    },
+    {
+      "work_id": "https://openalex.org/W2764321359",
+      "title": "Bridging Educational Leadership, Curriculum Theory and Didaktik",
+      "year": 2017,
+      "doi": "https://doi.org/10.1007/978-3-319-58650-2",
+      "venue": "Educational governance research",
+      "authors": [
+        "Michael Uljens",
+        "Ylimaki, Rose"
+      ],
+      "cited_by_count": 96,
+      "type": "book",
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-58650-2.pdf?pdf=button",
+      "abstract": "Aims and ScopeThis series presents recent insights in educational governance gained from research that focuses on the interplay between educational institutions and societies and markets.Education is not an isolated sector.Educational institutions at all levels are embedded in and connected to international, national and local societies and markets.One needs to understand governance relations and the changes that occur if one is to understand the frameworks, expectations, practice, room for manoeuvre, and the relations between professionals, public, policy makers and market place actors.The aim of this series is to address issues related to structures and discourses by which authority is exercised in an accessible manner.It will present findings on a variety of types of educational governance: public, political and administrative, as well as private, market place and self-governance.International and multidisciplinary in scope, the series will cover the subject area from both a worldwide and local perspective and will describe educational governance as it is practised in all parts of the world and in all sectors: state, market, and NGOs.",
+      "concepts": [
+        "License",
+        "Bridging (networking)",
+        "Curriculum",
+        "Educational leadership",
+        "Sociology",
+        "Political science"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.294430+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W3125658951",
+      "title": "Returns to Talent and the Finance Wage Premium",
+      "year": 2019,
+      "doi": "https://doi.org/10.1093/rfs/hhz012",
+      "venue": "Review of Financial Studies",
+      "authors": [
+        "Claire Célérier",
+        "Boris Vallée"
+      ],
+      "cited_by_count": 92,
+      "type": "article",
+      "open_access_url": "https://utoronto.scholaris.ca/bitstreams/d6c4a6d3-93c1-44be-b5f3-37c089665f52/download",
+      "abstract": "Abstract To study the role of talent in finance workers’ pay, we exploit a special feature of the French higher education system. Wage returns to talent have been significantly higher and have risen faster since the 1980s in finance than in other sectors. Both wage returns to project size and the elasticity of project size to talent are also higher in this industry. Last, the share of performance pay varies more for talent in finance. These findings are supportive of finance wages reflecting the competitive assignment of talent in an industry that exhibits a high complementarity between talent and scale. Received October 11, 2017; editorial decision September 4, 2018 by Editor Stijn Van Nieuwerburgh. Authors have furnished an Internet Appendix, which is available on the Oxford University Press Web site next to the link to the final published paper online.",
+      "concepts": [
+        "Exploit",
+        "Wage",
+        "Complementarity (molecular biology)",
+        "Economics",
+        "Returns to scale",
+        "The Internet"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.085228+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W4386098127",
+      "title": "A skills‐matching perspective on talent management: Developing strategic agility",
+      "year": 2023,
+      "doi": "https://doi.org/10.1002/hrm.22192",
+      "venue": "Human Resource Management",
+      "authors": [
+        "Stefan Jooss",
+        "David G. Collings",
+        "John McMackin",
+        "Michael H. Dickmann"
+      ],
+      "cited_by_count": 89,
+      "type": "article",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hrm.22192",
+      "abstract": "Abstract Despite two decades of evolution as an area of research and practice, talent management faces ongoing criticism for being overly static in its approach, offering little in terms of enabling strategic agility. This is problematic as organizations increasingly rely on strategic agility to manage their dynamic business operations. Drawing on matching theory and adopting an agility lens, we explore the link between talent management and strategic agility. Through a qualitative research design, encompassing 34 interviews in 15 organizations, we explicate a skills‐matching perspective on talent management, including initial and dynamic skills‐matching in external and internal labor markets. Through this process, organizations can build a set of dynamic capabilities, underlying two meta‐capabilities, strategic sensitivity and resource fluidity, which enable strategic agility. In doing so, we portray skills‐matching as an illustration of a processual view on talent management and create a model of developing strategic agility through skills‐matching, responsive to external and internal demands.",
+      "concepts": [
+        "Matching (statistics)",
+        "Dynamic capabilities",
+        "Knowledge management",
+        "Strategic planning",
+        "Perspective (graphical)",
+        "Process (computing)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.083955+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W2596081947",
+      "title": "Matching supply with demand in supply chain management education",
+      "year": 2016,
+      "doi": "https://doi.org/10.1108/ijlm-03-2015-0058",
+      "venue": "The International Journal of Logistics Management",
+      "authors": [
+        "Amit Kumar Sinha",
+        "William P. Millhiser",
+        "Yuanjie He"
+      ],
+      "cited_by_count": 68,
+      "type": "article",
+      "open_access_url": null,
+      "abstract": "Purpose The field of supply chain management (SCM) evolves dramatically due to factors of globalization, innovation, sustainability, and technology. These changes raise challenges not only to higher education institutions, but also to students, employing organizations, and third parties like SCM-related professional bodies. To understand the challenge, the purpose of this paper is to examine the gap between demand and supply of SCM-related knowledge areas, answer-related design questions, and make recommendations to close the gaps. Design/methodology/approach To compare the demand and supply of SCM-related knowledge areas, demand data is collected from a professional career website and supply data is gathered from operations management (OM) and SCM course syllabi from AACSB-accredited business schools in the USA. Cluster analysis identifies how supply and demand are matched on the data collected. Findings First, gaps exist between SCM talent requirements from industry and the knowledge/skill training by US business schools. This paper identifies matching, under-supplying, and over-supplying knowledge areas. Under-supply in emerging areas such as SCM information technology and certain logistics management topics are found. Some traditional OM topics are over-supplied due to out-of-date industry applications and should be revised to reflect the field’s transition from an OM to SCM view. Last, this paper makes recommendations to different stakeholders in this matching supply with demand process. Originality/value This study contributes to the literature in two ways. First, it provides an up-to-date understanding on demand and supply of SCM talent in USA. Second, it provides insights and recommendations not only to educators on curriculum design, but also to potential candidates interested in SCM careers, to companies’ job recruiters, and to professional organizations (such as APICS and Council of Supply Chain Management Professionals) to reduce the gaps between demand ",
+      "concepts": [
+        "Supply and demand",
+        "Supply chain",
+        "Supply chain management",
+        "Business",
+        "Originality",
+        "Demand management"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:16:58.083027+00:00",
+      "evidence_level": "A",
+      "query": "talent supply and demand matching higher education"
+    },
+    {
+      "work_id": "https://openalex.org/W2930047264",
+      "title": "Career Technical Education and Labor Market Outcomes: Evidence from California Community Colleges",
+      "year": 2015,
+      "doi": "https://doi.org/10.3386/w21137",
+      "venue": "National Bureau of Economic Research",
+      "authors": [
+        "Ann Huff Stevens",
+        "Michal Kurlaender",
+        "Michel Grosz"
+      ],
+      "cited_by_count": 68,
+      "type": "report",
+      "open_access_url": "https://doi.org/10.3386/w21137",
+      "abstract": "Career technical education (CTE) programs at community colleges are increasingly seen as an attractive alternative to four-year colleges, yet little systematic evidence exists on the returns to specific certificates and degrees.We estimate returns to CTE programs using administrative data from the California Community College system linked to earnings records.We employ estimation approaches including individual fixed effects and individual-specific trends, and find average returns to CTE certificate and degrees that range from 14 to 45 percent.The largest returns are for programs in the healthcare sector; estimated returns in non-health related programs range from 15 to 23 percent.",
+      "concepts": [
+        "Community college",
+        "Labour economics",
+        "Political science",
+        "Economics",
+        "Medical education",
+        "Demographic economics"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.295441+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W2165160234",
+      "title": "Is it worth it? Postsecondary education and labor market outcomes for the disadvantaged",
+      "year": 2015,
+      "doi": "https://doi.org/10.1186/s40173-014-0027-0",
+      "venue": "IZA Journal of Labor Policy",
+      "authors": [
+        "Ben Backes",
+        "Harry J. Holzer",
+        "Erin Dunlop Velez"
+      ],
+      "cited_by_count": 53,
+      "type": "article",
+      "open_access_url": "https://doi.org/10.1186/s40173-014-0027-0",
+      "abstract": "Abstract In this paper we examine a range of postsecondary education and labor market outcomes, with a particular focus on minorities and/or disadvantaged workers. We use administrative data from the state of Florida, where postsecondary student records have been linked to UI earnings data and also to secondary education records. Our main findings can be summarized as follows: 1) Gaps in secondary school achievement can account for a large portion of the variation in postsecondary attainment and labor market outcomes between the disadvantaged and other students, but meaningful gaps also exist within achievement groups, and 2) Earnings of the disadvantaged are hurt by low completion rates in postsecondary programs, poor performance during college, and not choosing high-earning fields. In particular, significant labor market premia can be earned in a variety of more technical certificate and Associate (AA) programs, even for those with weak earlier academic performance, but instead many disadvantaged (and other) students choose general humanities programs at the AA (and even the BA level) with low completion rates and low compensation afterwards. A range of policies and practices might be used to improve student choices as well as their completion rates and earnings.",
+      "concepts": [
+        "Disadvantaged",
+        "Earnings",
+        "Postsecondary education",
+        "Educational attainment",
+        "Vesting",
+        "Certificate"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.294430+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W4366782217",
+      "title": "生态系统理论视角下社会工作介入高校思政教育 ——基于社区营造的实践探索",
+      "year": 2023,
+      "doi": "https://doi.org/10.55375/jerp.2023.3.1",
+      "venue": "教育研究前沿进展",
+      "authors": [
+        "广东工业大学法学院",
+        "东楷 黄",
+        "雪滢 胡",
+        "广东工业大学法学院",
+        "文鑫 黄",
+        "广东工业大学法学院",
+        "立宏 刘",
+        "韩山师范学院计算机与信息工程学院"
+      ],
+      "cited_by_count": 29,
+      "type": "article",
+      "open_access_url": "https://qingpress.com/fs/Upload/Enclosures/580aaf70-3355-41d1-9dec-6832afd72dce.pdf",
+      "abstract": "针对高校学生社区思政育人体系建设存在教育方式落后、育人效果不佳、不良思想观念流行等现实困境，基于社会工作理念与高校思想政治教育具有天然的耦合性，首先探讨了社会工作对高校思政教育、社区建设的创新路径，然后从社会生态系统理论视角提出了社会工作理念嵌入思政教育工作的多重路径选择，从社区建设的“育人模式”“融合范式”“提质增效”三个方面探讨社会工作理念创新高校学生社区建设的选择策略，为高校学生社区思政育人体系建设提供更好的创新范式。",
+      "concepts": [
+        "Environmental science"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.390401+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    },
+    {
+      "work_id": "https://openalex.org/W4220706700",
+      "title": "The Value of Foreign Language Skills in the German Labor Market",
+      "year": 2022,
+      "doi": "https://doi.org/10.1016/j.labeco.2022.102150",
+      "venue": "Labour Economics",
+      "authors": [
+        "Sabrina Hahm",
+        "Michele Gazzola"
+      ],
+      "cited_by_count": 29,
+      "type": "article",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S0927537122000434/pdf",
+      "abstract": "This article explores the relationship between foreign language skills and individuals’ labor income in Germany, focusing on the English language. Using the 2012 and 2016 waves of the German Socio-Economic Panel’s Innovation Sample (SOEP-IS), we find that native speakers of German with English language skills earn a wage premium of 13 percent, on average. Incremental improvements in the level of skills, e.g., from basic to independent user, increase wages by 11 percent, on average. We address endogeneity issues by using novel data that combine comprehensive information about individuals’ characteristics with fine-grained self-assessments of language skills based on descriptors derived from the Common European Framework of Reference for Languages (CEFR). Any remaining sources of endogeneity in the level of language proficiency are addressed by an instrumental variable approach that exploits exogenous variation in individuals’ exposure to foreign language acquisition in school. We also show that wage differentials cannot be explained by the value of foreign language skills as a general ability signal, but they are driven by the productive value of such skills. Finally, by examining language skills instead of the use of such skills in the workplace, we identify individual returns to foreign languages for the general population. As education policy is the main determinant of English language acquisition (not only in Germany), this information is highly relevant for policy-makers.",
+      "concepts": [
+        "Endogeneity",
+        "German",
+        "Foreign language",
+        "Instrumental variable",
+        "Wage",
+        "Value (mathematics)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.296507+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W4362560016",
+      "title": "Skills Gap: The Importance of Soft Skills in Graduate Employability as Perceived by Employers and Graduates",
+      "year": 2023,
+      "doi": "https://doi.org/10.30880/ojtp.2023.08.01.003",
+      "venue": "Online Journal for TVET Practitioners",
+      "authors": [
+        "Brenda Ping Ping Yong",
+        "Ying-Leh Ling"
+      ],
+      "cited_by_count": 23,
+      "type": "article",
+      "open_access_url": "https://publisher.uthm.edu.my/ojs/index.php/oj-tp/article/download/10536/5618",
+      "abstract": "This study investigated the perceptions of soft skills among employers and graduates in Sarawak, using descriptive quantitative research methodology to determine if there is a significant difference between the employers and graduates; to compare differences in ranking of soft skills, and thus the occurrence of a skills gap between both parties. The literature reviews in this study emphasized, firstly, the perceptions of graduates and employers on soft skills about employability, a topic which had been studied over the decades across the world, since the skills gap or mismatch arose from the different perceptions is an ongoing phenomenon, that affected the curriculum of the higher education institutions and the labour market in the industries. Second, soft skills development has evolved; it has been referred to as 21st-century skills; a critical component of today's graduates' employability. Then, this study examined the perception of stakeholders involved in graduate employability, in particular, employer and graduate. The skills gap existed as a result of the disparities in perceptions between graduates and employers as the findings revealed there are differences in ranking orders, and frequency analysis confirmed the mean score comparisons of the ranking options between both parties. In terms of employers’ demographic characteristics, significant differences were spotted after analysing a one-way ANOVA. These findings aimed to provide useful information to the stakeholders involved in assisting with the reduction of the skills gap and hence improve the graduate employability in Sarawak.",
+      "concepts": [
+        "Employability",
+        "Soft skills",
+        "Perception",
+        "Ranking (information retrieval)",
+        "Curriculum",
+        "Medical education"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:00.413111+00:00",
+      "evidence_level": "A",
+      "query": "graduate employability skills gap curriculum"
+    },
+    {
+      "work_id": "https://openalex.org/W4250417489",
+      "title": "产教融合视角下校企合作人才培养模式探究——以北京社会管理职业学院康养专业群为例",
+      "year": 2021,
+      "doi": "https://doi.org/10.26549/jxffcxysj.v3i16.6256",
+      "venue": "教学方法创新与实践",
+      "authors": [
+        "伟 程"
+      ],
+      "cited_by_count": 22,
+      "type": "article",
+      "open_access_url": "https://ojs.s-p.sg/index.php/jxffcxysj/article/download/6256/pdf",
+      "abstract": "以深化产教融合促进职业教育与社会人才需求有效衔接，是新时代背景下人力资源供给侧结构性改革的必然要求。本研究从产教融合视角探究人才培养模式改革，运用个案研究方法，以北京社会管理职业学院康养专业群为例，论文提出“定标准、搭平台、建基地、育团队、创机制、优服务”的实践路径，探索高职院校产教融合、校企合作新思路和新举措，为构建具有职业教育特色的产教融合、校企合作的人才培养模式提供案例经验和参考借鉴。",
+      "concepts": [
+        "Computer science"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.389588+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    },
+    {
+      "work_id": "https://openalex.org/W4205473722",
+      "title": "产教融合背景下英语专业口语人才的培养探索",
+      "year": 2021,
+      "doi": "https://doi.org/10.26549/jxffcxysj.v4i6.6818",
+      "venue": "教学方法创新与实践",
+      "authors": [
+        "子玉 李",
+        "振潭 李"
+      ],
+      "cited_by_count": 16,
+      "type": "article",
+      "open_access_url": "https://ojs.s-p.sg/index.php/jxffcxysj/article/download/6818/pdf",
+      "abstract": "The integration mode of enterprises with vocational schools and universities is an important factor for the sustainable development of China's digital economy and also the guiding light for the transformation of application-oriented universities.It enables the application innovation of all industries for universities, and provides more excellent and qualified talents for the digital transformation of enterprises.And the curriculum reform will have new development under the background of the integration of enterprises with vocational schools and universities, especially oral English course.This paper explores the cultivation strategies of oral English talents from the perspective of integration of enterprises with vocational schools and universities.",
+      "concepts": [
+        "Computer science"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.390401+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    },
+    {
+      "work_id": "https://openalex.org/W4415947500",
+      "title": "人工智能背景下高等教育的思考与实践",
+      "year": 2025,
+      "doi": "https://doi.org/10.70693/jyxb.v1i3.72",
+      "venue": "中国现代教育学报",
+      "authors": [
+        "张凯"
+      ],
+      "cited_by_count": 14,
+      "type": "article",
+      "open_access_url": "https://wisvora.org/index.php/jyxb/article/download/72/59",
+      "abstract": "人工智能技术正以前所未有的速度推动人类社会的变革，其影响已深刻渗透到经济、政治、文化乃至教育的各个领域。作为知识生产和人才培养的重要阵地，高等教育在人工智能背景下面临着全新的机遇与挑战。人工智能技术不仅推动了教学理念和课程体系的重构，还为课堂教学、学习评价和人才培养提供了新路径。本文以人工智能对高等教育的影响为研究对象，系统分析人工智能与教育理论的契合点，提出高等教育教学改革思路，旨在增强高校教师对人工智能技术的应用能力，促进教育工作目标的顺利实现。",
+      "concepts": [
+        "Process (computing)",
+        "Identification (biology)",
+        "Computer science",
+        "Product (mathematics)",
+        "Work (physics)",
+        "Context (archaeology)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.390401+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    },
+    {
+      "work_id": "https://openalex.org/W4200435888",
+      "title": "三全育人视域下高校辅导员的育人角色与实现路径研究",
+      "year": 2021,
+      "doi": "https://doi.org/10.33142/fme.v1i4.3345",
+      "venue": "现代教育前沿",
+      "authors": [
+        "建 朱"
+      ],
+      "cited_by_count": 11,
+      "type": "article",
+      "open_access_url": "https://journals.viserdata.com/index.php/fme/article/download/3345/3335",
+      "abstract": "In the current process of higher education, \"Sanquan Education\" as an important measure to implement the fundamental task of moral education, the main force to implement this measure is college counselors.This paper introduces the necessity and methods of positioning the role of college counselors from the perspective of Sanquan Education, which ensures the smooth implementation of Sanquan Education system and promote the development of college counselors in the direction of specialization and professionalization, so as to bring inspiration to readers.",
+      "concepts": [
+        "Computer science"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.390401+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    },
+    {
+      "work_id": "https://openalex.org/W4415902895",
+      "title": "广西高校大学生人工智能素养培育体系构建与实践路径研究",
+      "year": 2025,
+      "doi": "https://doi.org/10.63887/etr.2025.1.6.41",
+      "venue": "教育理论与研究",
+      "authors": [
+        "王海"
+      ],
+      "cited_by_count": 8,
+      "type": "article",
+      "open_access_url": "http://sci-open.net/index.php/ETR/article/download/4670/5859",
+      "abstract": "在人工智能技术深度渗透经济社会各领域的背景下，广西高校大学生的人工智能素养已成为支撑区域数字经济发展与产业智能化升级的关键能力。然而，当前广西高校的人工智能教育存在“重技术轻素养”“重技能轻伦理”“区域适配性弱”等问题，难以满足“AI+产业”融合对复合型人才的需求。本文基于“素养导向、分层分类、产教协同”的理念，结合广西重点产业（如智能制造、智慧农业、跨境数字服务）对人才能力的需求，提出涵盖“知识-能力-伦理-应用”的人工智能素养培育体系框架，从目标定位、课程结构、实践路径、保障机制等方面系统阐述构建策略，并通过典型案例验证其可行性，旨在为广西高校培养兼具技术能力与人文责任的AI人才提供理论与实践参考。",
+      "concepts": [
+        "Process (computing)",
+        "Identification (biology)",
+        "Computer science",
+        "Product (mathematics)",
+        "Work (physics)",
+        "Context (archaeology)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.389588+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    },
+    {
+      "work_id": "https://openalex.org/W4233551049",
+      "title": "国际协同育人视野下的高校跨文化管理研究",
+      "year": 2021,
+      "doi": "https://doi.org/10.33142/fme.v2i1.3942",
+      "venue": "现代教育前沿",
+      "authors": [
+        "哲霓 张"
+      ],
+      "cited_by_count": 8,
+      "type": "article",
+      "open_access_url": "https://journals.viserdata.com/index.php/fme/article/download/3942/3917",
+      "abstract": "随着近年来高等教育国际化的深入发展，高校内的跨文化冲突普遍存在而且复杂多变，这就对高校的国际跨文化管理提出了迫切的需求。文中通过剖析高校国际协同育人实践中普遍存在的问题，提出了国际协同育人视野下高校跨文化管理的四点思路：明确高校国际协同育人的真正目的、正确把握跨文化管理的方式和尺度、有效提升高校管理者的跨文化管理水平、尽力协调信息同位调整，促进共同文化的形成。",
+      "concepts": [
+        "Business"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.390401+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    },
+    {
+      "work_id": "https://openalex.org/W4241708265",
+      "title": "关于以人为本的高校学生思想教育的思考",
+      "year": 2020,
+      "doi": "https://doi.org/10.26549/jxffcxysj.v3i14.5989",
+      "venue": "教学方法创新与实践",
+      "authors": [
+        "海青 李"
+      ],
+      "cited_by_count": 7,
+      "type": "article",
+      "open_access_url": "https://ojs.s-p.sg/index.php/jxffcxysj/article/download/5989/pdf",
+      "abstract": "中国高校以人为本的思想教育工作需要结合高校自身教育的特点与高校教育的发展规律相协调，要充分考虑高校大学生的特点。在新时期与新形势下，高校以人为本思想教育工作仍然存在一些问题，需要加以重视并积极应对。通过建立健全实践教学的保障机制、做好实践教学的师资队伍的建设、构建一个稳定的实践教学基础等一系列措施，更好地实现中国高校以人为本的思想教育工作的发展。",
+      "concepts": [
+        "Computer science"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.390401+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    },
+    {
+      "work_id": "https://openalex.org/W2994925899",
+      "title": "Reforming Undergraduate Statistics Education in the Arab World in the Era of Information",
+      "year": 2019,
+      "doi": "https://doi.org/10.1080/10691898.2019.1705943",
+      "venue": "Journal of Statistics Education",
+      "authors": [
+        "Rafiq Hijazi",
+        "Ibrahim M. Abdalla Alfaki"
+      ],
+      "cited_by_count": 7,
+      "type": "article",
+      "open_access_url": "https://doi.org/10.1080/10691898.2019.1705943",
+      "abstract": "This article is the first to thoroughly investigate the state of undergraduate statistics education in the Arab world. It discusses evidence with respect to the quality of education in general and statistics education in particular. Based on a survey of statistics programs in Arab universities, several issues pertaining to curriculum structure, pedagogical practices, and matching learning outcomes with labor market needs are discussed. The survey results reveal a gap between the undergraduate statistics programs in Arab universities and the international curriculum guidelines. This gap signals the urgent need for reforming and enhancing statistics education to address the needs of the labor market in this era of information. Recommendations and strategic reforms based on best international practices are outlined.",
+      "concepts": [
+        "Curriculum",
+        "Statistics education",
+        "Economic statistics",
+        "Official statistics",
+        "Quality (philosophy)",
+        "Statistics"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:05.296507+00:00",
+      "evidence_level": "A",
+      "query": "labor market signaling university curriculum reform"
+    },
+    {
+      "work_id": "https://openalex.org/W7162649232",
+      "title": "人工智能时代高校思想政治教育的挑战与创新路径",
+      "year": 2026,
+      "doi": "https://doi.org/10.64083/sse2620330",
+      "venue": "社会科学与教育",
+      "authors": [
+        "泽君 李"
+      ],
+      "cited_by_count": 3,
+      "type": "article",
+      "open_access_url": null,
+      "abstract": "人工智能时代技术浪潮对高校思想育人工作产生系统性影响,为破解家校联动缺位、校企资源脱节、媒体管控滞后、制度保障残缺等挑战,实现技术工具理性与道德价值理性的深度融合,本文立足人工智能环境下高校思想育人工作的外力推动与内力适应的双向逻辑,围绕立德树人根本目标,针对性提出家校双向赋能共育、校企资源供需适配、媒体动态调控、融合型制度保障等创新路径。这些路径有效化解技术与思想育人工作融合的核心矛盾,推动智能化转型,为培养兼具坚定信仰、数字素养与创新能力的时代新人筑牢根基,为新时代高校人才培养高质量发展提供理论与实践支撑。",
+      "concepts": [
+        "Process (computing)",
+        "Identification (biology)",
+        "Computer science",
+        "Product (mathematics)",
+        "Work (physics)",
+        "Context (archaeology)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.389588+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    },
+    {
+      "work_id": "https://openalex.org/W4414293103",
+      "title": "新工科视域下智慧交通人才培养的混合教学模式创新",
+      "year": 2025,
+      "doi": "https://doi.org/10.70693/cjst.v1i3.1380",
+      "venue": "中国科学与技术学报",
+      "authors": [
+        "赵红专",
+        "李润润",
+        "王鸿静",
+        "周旦",
+        "王涛",
+        "田芮珏",
+        "廉冠",
+        "程瑞"
+      ],
+      "cited_by_count": 2,
+      "type": "article",
+      "open_access_url": "https://ac.wisvora.com/index.php/cjst/article/download/1380/1188",
+      "abstract": "广西智慧交通产业升级亟需复合型人才，传统课程供给与企业需求错位。以《智能交通运输系统》为例，为构建适配产业需求的混合教学模式，通过校企政共建师资，基地，政策三支点，实施 “三点筑实，多维评价”，同时重构交通课程，开发车路协同与自动驾驶模块，依托联合实验室实行项目竞赛科研三融合，并通过 “智学桂电” 实时迭代，学生创新，实践与职业胜任力显著提升。该模式能够有效打通教育链、人才链、产业链、为区域数字经济与交通强国建设输送高素质人才。",
+      "concepts": [
+        "Process (computing)",
+        "Identification (biology)",
+        "Computer science",
+        "Product (mathematics)",
+        "Work (physics)",
+        "Context (archaeology)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.390401+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    },
+    {
+      "work_id": "https://openalex.org/W7133340525",
+      "title": "产教融合视阈下高职院校体育专业协同育人机制研究",
+      "year": 2026,
+      "doi": "https://doi.org/10.64649/yh.jydk.2026010004",
+      "venue": "教研导刊",
+      "authors": [
+        "鹏 孙",
+        "博楠 于"
+      ],
+      "cited_by_count": 1,
+      "type": "article",
+      "open_access_url": "https://www.sjzyhwh.cn/journal/jydk/2026/1/4.pdf",
+      "abstract": "产教融合作为打通高校人才培养与产业需求壁垒的核心路径，其本质是通过校企资源互补、协同发力，重构适配创新人才成长的培育生态。当前高校学生创新能力培养普遍面临理论与实践脱节、创新成果难落地、能力适配产业不足等痛点，产教融合为破解这些难题提供了关键抓手。本文立足校企协同的实操场景，从融合机制、实践载体、评价体系、保障路径四个核心维度，探索高校学生创新能力的精准培育策略，通过优化校企合作模式、激活实践平台效能、建立动态评价标准，推动创新能力培养从形式化开展向高质量落地转型，为高校依托产教融合提升人才培养质量、对接产业创新需求提供实践参考。",
+      "concepts": [
+        "Process (computing)",
+        "Identification (biology)",
+        "Computer science",
+        "Product (mathematics)",
+        "Work (physics)",
+        "Context (archaeology)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.390401+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    },
+    {
+      "work_id": "https://openalex.org/W4415060701",
+      "title": "智能制造人才订单培养的供需适配机制研究——基于产教融合的三维协同模型构建",
+      "year": 2025,
+      "doi": "https://doi.org/10.37155/2717-5197-0720-15",
+      "venue": "机械与电子控制工程",
+      "authors": [
+        "张蜀红"
+      ],
+      "cited_by_count": 1,
+      "type": "article",
+      "open_access_url": "http://ojs.omniscient.sg/index.php/mece/article/download/67047/65635",
+      "abstract": "智能制造技术迅猛发展，产业对高素质专业化人才需求剧增，但当前人才培养模式与产业需求脱节。本 文聚焦智能制造人才订单培养供需适配机制，构建基于产教融合的三维协同模型，从政府、企业、高校三维度探讨人 才培养与产业需求的有效对接。先分析智能制造人才供需现状及问题，再阐述三维协同模型构建依据与内容，涵盖三 维度职责与协同方式，最后提出实施保障措施。旨在为智能制造人才培养提供新思路，促进产教深度融合，提升人才 培养质量，满足产业发展需求。",
+      "concepts": [
+        "Process (computing)",
+        "Identification (biology)",
+        "Computer science",
+        "Product (mathematics)",
+        "Work (physics)",
+        "Context (archaeology)"
+      ],
+      "source": "openalex",
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "retrieval_time": "2026-10-03T06:17:07.390401+00:00",
+      "evidence_level": "A",
+      "query": "高校 人才 供需 适配"
+    }
+  ],
+  "audit": [
+    {
+      "url": "https://api.openalex.org/works?search=talent+supply+and+demand+matching+higher+education&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "allowed": true,
+      "rule": "allow",
+      "robots_url": "https://api.openalex.org/robots.txt",
+      "at": "2026-10-03T06:16:55.732477+00:00"
+    },
+    {
+      "url": "https://api.openalex.org/works?search=graduate+employability+skills+gap+curriculum&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "allowed": true,
+      "rule": "allow",
+      "robots_url": "https://api.openalex.org/robots.txt",
+      "at": "2026-10-03T06:16:58.085709+00:00"
+    },
+    {
+      "url": "https://api.openalex.org/works?search=artificial+intelligence+workforce+skills+demand&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "allowed": true,
+      "rule": "allow",
+      "robots_url": "https://api.openalex.org/robots.txt",
+      "at": "2026-10-03T06:17:00.414105+00:00"
+    },
+    {
+      "url": "https://api.openalex.org/works?search=labor+market+signaling+university+curriculum+reform&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "allowed": true,
+      "rule": "allow",
+      "robots_url": "https://api.openalex.org/robots.txt",
+      "at": "2026-10-03T06:17:02.980942+00:00"
+    },
+    {
+      "url": "https://api.openalex.org/works?search=%E9%AB%98%E6%A0%A1+%E4%BA%BA%E6%89%8D+%E4%BE%9B%E9%9C%80+%E9%80%82%E9%85%8D&per-page=12&mailto=edumatch-project%40example.org&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Ctype%2Copen_access%2Cabstract_inverted_index%2Cconcepts&filter=from_publication_date%3A2015-01-01",
+      "allowed": true,
+      "rule": "allow",
+      "robots_url": "https://api.openalex.org/robots.txt",
+      "at": "2026-10-03T06:17:05.297520+00:00"
+    }
+  ]
+}

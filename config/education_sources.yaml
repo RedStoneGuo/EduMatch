@@ -1,0 +1,36 @@
+# 教育侧公开文档来源注册表（Phase 0 检索环）
+#
+# 只登记"机构自己公开发布"的栏目页。抓取前逐个 URL 做 robots.txt 判定；
+# 未声明 robots.txt 的主机按 RFC 9309 视为未限制（本次实测：教育部、北京市教委、
+# 北京工业大学、北京交通大学均为 404，即无限制声明）。
+#
+# 新增来源：把栏目页 URL 加到对应机构的 listing 列表即可，无需改代码。
+
+keywords:
+  就业质量报告: ["就业质量报告", "毕业生就业质量", "毕业生就业质量年度报告", "就业质量年度报告"]
+  教学质量报告: ["教学质量报告", "本科教学质量报告", "本科教学质量", "学年本科教学质量"]
+  培养方案: ["培养方案", "人才培养方案", "专业培养方案"]
+  课程大纲: ["课程大纲", "教学大纲", "课程教学大纲"]
+  专业介绍: ["专业介绍", "专业设置", "本科专业目录", "专业一览"]
+  教学计划: ["教学计划", "教学进度", "开课计划"]
+
+document_extensions: [".pdf", ".docx", ".doc", ".xlsx", ".xls", ".pptx"]
+
+sources:
+  北京工业大学:
+    homepage: "https://www.bjut.edu.cn/"
+    listing:
+      - "https://job.bjut.edu.cn/"
+  北京交通大学:
+    homepage: "https://www.bjtu.edu.cn/"
+    listing:
+      - "https://bjtu.edu.cn/xxgkw/"
+      - "http://job.bjtu.edu.cn/"
+  教育部:
+    homepage: "https://www.moe.gov.cn/"
+    listing:
+      - "https://www.moe.gov.cn/jyb_xxgk/"
+  北京市教育委员会:
+    homepage: "http://jw.beijing.gov.cn/"
+    listing:
+      - "http://jw.beijing.gov.cn/xxgk/"

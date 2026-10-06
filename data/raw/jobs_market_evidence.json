@@ -1,0 +1,75 @@
+{
+  "dataset_id": "legacy_recruitment_aggregate_2024",
+  "title": "归档招聘证据（聚合形态，无原始逐条记录）",
+  "source_document": "AI竞赛数据归档/输出过程记录/招聘.txt",
+  "upstream_channel": "旧版 Coze 工作流汇总，原始采集渠道与条数未留存",
+  "evidence_level": "D",
+  "counts": {
+    "raw_count": null,
+    "deduplicated_count": null,
+    "effective_count": null,
+    "note": "归档只保留聚合描述，未保留逐条岗位，因此不得当作岗位数量使用"
+  },
+  "city": "北京",
+  "industry": "人工智能/新一代信息技术",
+  "positions": [
+    "数据工程师",
+    "机器学习算法工程师",
+    "嵌入式开发工程师",
+    "软件开发工程师",
+    "软件测试工程师",
+    "全栈开发工程师",
+    "AI应用工程师",
+    "知识工程师",
+    "前端开发工程师",
+    "AI智慧运维工程师"
+  ],
+  "skill_frequency_tiers": {
+    "Python": "high",
+    "Java": "high",
+    "C语言": "high",
+    "SQL": "high",
+    "数据工程": "high",
+    "JavaScript": "medium",
+    "机器学习": "medium",
+    "深度学习": "medium",
+    "PyTorch": "medium",
+    "TensorFlow": "medium"
+  },
+  "position_skill_map": {
+    "机器学习算法工程师": ["Python", "机器学习", "深度学习", "PyTorch", "TensorFlow"],
+    "数据工程师": ["Python", "SQL", "数据工程"],
+    "AI应用工程师": ["Python", "大模型", "Agent", "RAG"],
+    "AI智慧运维工程师": ["Python", "MLOps", "模型部署", "Docker"],
+    "全栈开发工程师": ["JavaScript", "Java", "SQL"],
+    "嵌入式开发工程师": ["C语言", "C++"],
+    "知识工程师": ["知识图谱", "自然语言处理", "Python"],
+    "软件测试工程师": ["Python", "SQL"],
+    "软件开发工程师": ["Java", "Python", "SQL"],
+    "前端开发工程师": ["JavaScript"]
+  },
+  "requirements": {
+    "education": "本科为主，部分岗位要求硕士或博士",
+    "experience": "多数岗位经验不限或无经验要求"
+  },
+  "salary": {
+    "raw": "120元/天-3.5万元；常见区间8000-20000元",
+    "monthly_common_min": 8000,
+    "monthly_common_max": 20000,
+    "currency": "CNY"
+  },
+  "reported_gaps": [
+    "数据架构",
+    "数据治理",
+    "数据中台开发",
+    "PyTorch",
+    "TensorFlow"
+  ],
+  "high_pay_weak_curriculum": [
+    "AI应用开发",
+    "智能体方向",
+    "智慧运维",
+    "医疗影像处理"
+  ],
+  "compliance_note": "本文件仅保存聚合后的研究证据，不含个人联系方式等敏感个人信息；用于需求侧强度分析，不用于推断就业率。"
+}

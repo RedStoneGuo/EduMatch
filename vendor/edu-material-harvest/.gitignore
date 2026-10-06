@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+discover_out/
+_discover_tmp/
+_tmp/
+新增数据/
+*.xlsx
+*.csv

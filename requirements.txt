@@ -1,0 +1,23 @@
+# EduMatch runtime requirements
+# Verified against the local environment: Python 3.12 (D:\Miniconda\Data\Envs\Pytorch)
+#
+# Both requirements are already available in the target environment.
+# Nothing else is needed: MCP, docx/xlsx reading and the data layer use the
+# Python standard library only.
+
+numpy>=1.24
+PyYAML>=6.0
+
+# Demo UI (optional but recommended for the competition demo)
+streamlit>=1.30
+pandas>=2.0
+
+# Mechanism analysis (optional): falls back to a descriptive comparison when absent
+scikit-learn>=1.3
+
+# Test tooling (optional)
+pytest>=7.0
+
+# Optional, only for lawful job collection with the crawler enabled:
+#   EDUMATCH_ENABLE_CRAWLER=1
+httpx>=0.27

@@ -1,0 +1,8 @@
+{
+  "edu-material-harvest": {
+    "command": "python",
+    "args": [
+      "${CLAUDE_PLUGIN_ROOT}/skills/edu-material-harvest/scripts/mcp_server.py"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "edu-material-harvest-dsh",
+  "version": "1.0.0",
+  "description": "高校公开资料采集 for the DeepSeek Harness: harvest 培养方案 / 专业介绍 / 课程大纲 / 年度报告 from official *.edu.cn sources with a traceable ledger (直链 + 承载页).",
+  "private": false,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "skills",
+    "edu-material-harvest"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

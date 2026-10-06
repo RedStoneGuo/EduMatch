@@ -1,0 +1,40 @@
+{
+ "generated_at": "2026-10-05T18:19:35.844152+00:00",
+ "sources": [
+  {
+   "file": "全部招聘数据汇总.csv",
+   "rows": 72759,
+   "kept": 69064,
+   "dup_or_invalid": 3695,
+   "dup": 3695
+  },
+  {
+   "file": "招聘岗位数据_v2总表.csv",
+   "rows": 218000,
+   "kept": 199132,
+   "dup_or_invalid": 18868,
+   "dup": 18868
+  }
+ ],
+ "skipped": [
+  {
+   "file": "_专业导出统计.csv",
+   "reason": "辅助统计表，不是岗位行"
+  },
+  {
+   "file": "北京人工智能简历数据.xlsx",
+   "reason": "简历表：属微观求职侧基线，不是岗位需求表"
+  }
+ ],
+ "counts": {
+  "raw_count": 290759,
+  "deduplicated_count": 268196,
+  "effective_count": 268196,
+  "general_count": 16387,
+  "major_export_count": 251809,
+  "major_export_files": 274,
+  "baseline_sample": 20000,
+  "duplicates_dropped": 22563,
+  "note": "raw=各表原始行数合计；deduplicated=跨表指纹去重后；general=通用语料（AI/计算机关键词+基线）；major_export=按专业导出的专业作用域语料（惰性加载，按专业分文件）；baseline_sample=同城薪资基线样本（merged 后通用语料无'不带关键词'的行，从全量招聘表抽样 2 万条非 AI 岗位重建，口径已在报告披露）"
+ }
+}

@@ -1,0 +1,36 @@
+# 数据与产物：公开包只带"跑得起来的最小充分集"，其余见 DATA_MANIFEST.md
+# 注意：必须写 data/source/*（只排除直接子项）。若写成 data/source/**，
+# 父目录被排除后 `!.../**` 的否定规则不会生效，政策文件会被静默漏掉（实测踩过）。
+data/source/*
+# 只放行"数据占位说明"目录（各目录里只有 1 个 README.md，告诉使用者怎么把数据放回来）
+!data/source/培养方案/
+!data/source/年度报告/
+!data/source/课程大纲/
+!data/source/专业介绍/
+!data/source/招聘数据/
+!data/source/政策文件/
+!data/source/采集台账/
+data/raw/pdf_text/
+data/harvest/收割/
+data/harvest/
+data/processed/semantic_cache/
+data/processed/major_jobs/*.json
+data/processed/_*.jsonl
+data/processed/result.json
+
+# 本地产物 / 缓存
+分析产物/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.log
+
+# 敏感与个人数据（绝不入库）
+*.har
+*.env
+.env*
+**/简历数据.xlsx
+data/processed/case_reports/

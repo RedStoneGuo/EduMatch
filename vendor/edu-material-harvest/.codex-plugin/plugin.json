@@ -1,0 +1,44 @@
+{
+  "name": "edu-material-harvest",
+  "version": "2.0.0",
+  "description": "从官方免登录 *.edu.cn 源自动发现并采集高校的培养方案 / 专业介绍 / 课程大纲 / 年度报告，逐份落盘并登记可溯源台账（下载直链 + 承载页）。适用于任意中国高校，不限地域。",
+  "author": {
+    "name": "edu-harvest-labs"
+  },
+  "keywords": [
+    "education",
+    "university",
+    "edu-cn",
+    "crawler",
+    "curriculum",
+    "培养方案",
+    "专业介绍",
+    "课程大纲",
+    "年度报告",
+    "台账"
+  ],
+  "skills": "./skills/",
+  "mcpServers": {
+    "edu-material-harvest": {
+      "command": "python",
+      "args": ["./skills/edu-material-harvest/scripts/mcp_server.py"],
+      "cwd": "."
+    }
+  },
+  "interface": {
+    "displayName": "高校公开资料采集",
+    "shortDescription": "采集任意 *.edu.cn 高校的公开教学资料并出台账",
+    "longDescription": "给定学校名 + 官方域名，自动发现并采集培养方案 / 专业介绍 / 课程大纲 / 年度报告，逐份落盘并产出可溯源台账（下载直链 + 承载页）。只采官方免登录公开源，适用于任意中国高校。",
+    "developerName": "edu-harvest-labs",
+    "category": "Education & Research",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "采集某高校的培养方案、专业介绍和年度报告",
+      "给定学校名和官方域名，一键采集公开教学资料并出台账",
+      "把某高校信息公开网上的年度报告全部下载并登记来源"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "EduMatch benchmark",
+  "version": "2.0",
+  "golden_extraction": [
+    {"school": "北京交通大学", "year": 2024, "major": "人工智能", "fact_type": "graduates", "expected": 42},
+    {"school": "北京交通大学", "year": 2024, "major": "人工智能", "fact_type": "further_study_rate", "expected": 0.5714},
+    {"school": "北京交通大学", "year": 2024, "major": "人工智能", "fact_type": "signing_rate", "expected": 0.9048},
+    {"school": "北京交通大学", "year": 2024, "major": "人工智能", "fact_type": "placement_rate", "expected": 0.9048},
+    {"school": "中央民族大学", "year": 2024, "major": null, "fact_type": "student_faculty_ratio", "expected": 33.0},
+    {"school": "华北电力大学", "year": 2023, "major": null, "fact_type": "student_faculty_ratio", "expected": 16.33},
+    {"school": "中国农业大学", "year": 2023, "major": null, "fact_type": "practice_credit_ratio", "expected": 0.178},
+    {"school": "北京化工大学", "year": 2023, "major": null, "fact_type": "total_hours", "expected": 2166.0},
+    {"school": "华北电力大学", "year": 2023, "major": null, "fact_type": "faculty_total", "expected": 6.0},
+    {"school": "北京交通大学", "year": 2023, "major": null, "fact_type": "faculty_total", "expected": 14.0}
+  ],
+  "golden_normalisation": [
+    {"text": "熟悉 PyTorch 框架", "expected": "PyTorch"},
+    {"text": "使用 torch 训练模型", "expected": "PyTorch"},
+    {"text": "掌握检索增强生成技术", "expected": "RAG"},
+    {"text": "做过 Agent 智能体开发", "expected": "Agent"},
+    {"text": "了解 MLOps 平台", "expected": "MLOps"},
+    {"text": "具备数据治理经验", "expected": "数据工程"},
+    {"text": "熟悉容器化部署", "expected": "Docker"},
+    {"text": "掌握 Transformer 注意力机制", "expected": "Transformer"},
+    {"text": "会 SQL 数据库查询", "expected": "SQL"},
+    {"text": "了解知识图谱构建", "expected": "知识图谱"}
+  ],
+  "thresholds": {
+    "extraction_accuracy": 0.9,
+    "normalisation_accuracy": 0.9,
+    "citation_completeness": 1.0,
+    "hallucination_rate_max": 0.0,
+    "missing_handling_accuracy": 1.0,
+    "tool_call_success_rate": 1.0
+  }
+}

@@ -1,0 +1,19 @@
+# 高校公开资料采集 · Python 依赖
+#
+# 装法（推荐用你的项目 venv，别装进全局）：
+#   python -m pip install -r requirements.txt
+#
+# 三个都是「可选但有则更好」：缺了不崩，但会降级或报错——本表注明每种缺失的行为。
+# 本 skill 的设计原则是「缺依赖要吵不要哑」，所以下面是显式的，不是静默跳过。
+
+# PDF 取词：从 PDF 首页抽课程名 / 专业名（教学大纲与培养方案命名用）
+#   缺失时：first_page_text() 返回空串并 WARN；文件名退化为通用名，不影响下载与台账。
+pymupdf>=1.23
+
+# Excel 台账：report.py 生成 采集台账.xlsx（本工具的核心产物）
+#   缺失时：报错退出（exit 3），或加 --csv-only 降级为只出 CSV。
+openpyxl>=3.1
+
+# 使用教程 docx：generate_tutorial.py 生成 使用教程_XXX.docx
+#   缺失时：报错退出（exit 3）并给安装提示。
+python-docx>=1.0

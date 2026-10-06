@@ -1,0 +1,193 @@
+{
+  "_note": "零真实数据的占位结果（template）。所有数值为 null，文本为占位语；仅用于展示报告结构与维度。禁止把它当成任何真实院校/专业的数据。",
+  "run_id": "run:template",
+  "query": "<用户问题>",
+  "plan": {"school": "<院校>", "major": "<专业>", "mode": "<分析模式>"},
+  "primary_tsi": {
+    "primary_tsi": null,
+    "band": null,
+    "weighted_coverage": null,
+    "missing_indicators": ["F1", "S1", "O1", "M3"],
+    "dimensions": {
+      "F_供需适配": {"score": null},
+      "S_培养基础": {"score": null},
+      "O_人才结果": {"score": null},
+      "M_需求背景": {"score": null}
+    },
+    "metrics": [
+      {"metric_id": "F1", "name": "技能适配度", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "F2", "name": "核心技能缺口严重度", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "F3", "name": "技能覆盖广度", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "F4", "name": "供给结构强度", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "S1", "name": "培养目标—岗位能力一致性", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "S2", "name": "师资结构达标度", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "S3", "name": "实践教学强度", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "S4", "name": "教学条件与实验资源", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "O1", "name": "毕业去向落实率", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "O2", "name": "就业稳定性", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "O3", "name": "深造结构合理性", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "O4", "name": "用人单位评价", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "M1", "name": "技能需求强度", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "M2", "name": "新兴技能占比", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "M3", "name": "岗位需求规模", "value": null, "status": "insufficient_evidence", "evidence_level": "E"},
+      {"metric_id": "M4", "name": "薪资溢价", "value": null, "status": "insufficient_evidence", "evidence_level": "E"}
+    ]
+  },
+  "supply": {
+    "target": {"n_courses": null, "n_mapped_courses": null, "reliability": null,
+               "top_skills": [{"skill": "<技能A>", "supply": null}, {"skill": "<技能B>", "supply": null}]},
+    "peer": {"n_courses": null, "n_mapped_courses": null, "reliability": null,
+             "top_skills": [{"skill": "<技能A>", "supply": null}]},
+    "peer_by_school": [{"school": "<同类院校A>", "n_courses": null},
+                       {"school": "<同类院校B>", "n_courses": null}],
+    "peer_n_schools": null,
+    "target_by_school": [{"school": "<院校>", "n_courses": null}],
+    "used_for_legacy_fit": "target"
+  },
+  "demand_rows": [
+    {"skill": "<技能A>", "demand": null},
+    {"skill": "<技能B>", "demand": null},
+    {"skill": "<技能C>", "demand": null}
+  ],
+  "skill_gaps": {"rows": [
+    {"skill": "<技能A>", "demand": null, "supply": null, "gap": null, "status": "insufficient_evidence", "supply_basis": null},
+    {"skill": "<技能B>", "demand": null, "supply": null, "gap": null, "status": "insufficient_evidence", "supply_basis": null}
+  ]},
+  "skill_gaps_target": {"rows": [
+    {"skill": "<技能A>", "demand": null, "supply": null, "gap": null, "status": "insufficient_evidence"}
+  ]},
+  "occupation": {
+    "occupation": {"name": "<目标岗位>"},
+    "n_jobs": null,
+    "match_scope": "<匹配口径>",
+    "demand_top": [{"skill": "<技能A>", "demand": null}],
+    "requirements": {"education_distribution": {"<学历档A>": null, "<学历档B>": null},
+                     "median_salary": null, "p25_salary": null, "p75_salary": null,
+                     "n_with_salary": null, "n_daily_excluded": null,
+                     "salary_buckets": {"<8k": null, "8k-15k": null, "15k-25k": null},
+                     "salary_note": "未获取（该批岗位未提供可用月薪数值，不估算）"}
+  },
+  "market": {
+    "raw_count": null, "deduplicated_count": null, "n_target_jobs": null,
+    "industries": [["<行业A>", null], ["<行业B>", null]],
+    "median_salary_target": null, "median_salary_baseline": null, "salary_premium": null,
+    "salary_p25_target": null, "salary_p75_target": null,
+    "salary_buckets": {"<8k": null, "8k-15k": null, "15k-25k": null},
+    "n_salary_target": null, "n_daily_salary_excluded": null,
+    "education_distribution": {"<学历档A>": null}
+  },
+  "policy": {
+    "n_documents": null, "n_matched_documents": null,
+    "industry_counts": {"<产业方向A>": null, "<产业方向B>": null},
+    "skills_related": ["<能力方向A>", "<能力方向B>"]
+  },
+  "literature": {"n_works": null, "year_range": [null, null],
+                 "top_by_citation": [{"title": "<文献标题>", "year": null,
+                                      "cited_by_count": null, "doi": null}]},
+  "dataset_summary": {
+    "n_documents": null, "n_education_facts": null, "n_pdf_facts": null,
+    "n_courses": null, "n_policies": null, "years": [null, null]
+  },
+  "data_source": {"mode": "<local/harvest>", "harvest_courses": null,
+                  "harvest_facts": null, "notes": ["<数据口径说明>"]},
+  "course_skill_matrix": {
+    "course_ids": ["<课程ID>"], "skills": ["<技能A>", "<技能B>"],
+    "matrix": [[null, null]], "credits_by_skill": {"<技能A>": null},
+    "unmapped_courses": ["<未映射课程>"]
+  },
+  "courses": [{"course_id": "<课程ID>", "name": "<课程名>", "credits": null,
+               "is_practice": false, "is_required": null, "source_document": "<文件>"}],
+  "auto_harvest": {
+    "n_targets": null, "n_ok": null, "n_materials": null, "kinds": ["<材料类型>"],
+    "targets": ["<院校>", "<同类院校A>"],
+    "attempts": [{"school": "<同类院校A>", "domain": "<域名>", "status": "<状态>",
+                  "reason": "<原因>", "n_materials": null, "kinds": ["<材料类型>"]}],
+    "region_progress": {"pool": null, "done": null, "remaining": null},
+    "next_actions": ["<下一步补采动作>"], "still_missing_materials": ["<缺的材料>"]
+  },
+  "occupation_match": {"match_100": null, "band": null, "n_skills_covered": null,
+                       "n_skills_compared": null, "n_skills_missing": null, "definitional_missing": []},
+  "semantic": {"objective_job_alignment": {
+    "similarity": null, "status": "insufficient_evidence",
+    "notes": "占位：未检索到可核查的培养目标原文", "basis": "none",
+    "proxy_school_level": false, "n_covered": null, "n_demanded": null,
+    "covered_skills": [], "missing_skills": []
+  }},
+  "coverage": {"n_schools": null, "schools": [], "school_audit": {
+    "school": "<院校>", "ready_materials": [], "missing_materials": ["培养目标"],
+    "materials": {"培养方案课程": {"state": "<状态>"}, "培养目标": {"state": "<状态>"}}
+  }},
+  "retrieval_ledger": {
+    "materials": {"培养目标": {"attempts": [
+      {"kind": "pdf_text", "state": "<命中/未命中>", "reason": "<原因>", "reference": "<文件>"},
+      {"kind": "source", "state": "<命中/未命中>", "reason": "<原因>", "reference": "<文件>"},
+      {"kind": "archive", "state": "miss", "reason": "<原因>", "reference": "<文件>"},
+      {"kind": "harvest", "state": "miss", "reason": "<原因>", "reference": "<文件>"},
+      {"kind": "plugin_online", "state": "need_online", "reason": "本地/归档/采集均无，需联网补采", "reference": "<院校>"}
+    ], "online_plan": {"needed": true, "domain": "<已核实域名或未获取>",
+                        "entry_a": "插件全站/栏目采集（--source-mode plugin --harvest）",
+                        "entry_b": "承载页直采（--harvest-page <url> --harvest-kind 培养方案）",
+                        "note": "域名必须先实测核实，禁止猜域名。"}}},
+    "summary": {"n_materials": 1, "n_attempts": 5, "n_hits": 2,
+                "needs_online": {"培养目标": true},
+                "by_kind": {"pdf_text": {"hit": 1}, "source": {"hit": 1},
+                            "archive": {"miss": 1}, "harvest": {"miss": 1},
+                            "plugin_online": {"need_online": 1}}},
+    "note": "<全面检索口径>"
+  },
+  "benchmark": {
+    "scope": "<基准口径>", "status": "<状态>",
+    "benchmarks": {"<指标A>": {"n": null, "mean": null, "median": null, "min": null, "max": null}},
+    "education_background": {"entities": [
+      {"entity": "<同类院校A>", "placement_rate": null, "further_study_rate": null,
+       "signing_rate": null, "n_records": null},
+      {"entity": "<院校>", "placement_rate": null, "further_study_rate": null,
+       "signing_rate": null, "n_records": null}
+    ]},
+    "triangle": {
+      "label": "<三角比较口径>",
+      "rows": [{"dimension": "<维度>", "target": "<目标高校值>",
+                "peer": "<同类基准值>", "market": "<市场值>"}],
+      "findings": ["<差异解释>"], "note": "<口径说明>"
+    },
+    "skill_benchmark": {"rows": [
+      {"skill": "<技能A>", "market_demand": null, "target_supply": null,
+       "peer_supply": null, "target_gap": null, "target_vs_peer": null,
+       "status": "<状态>", "reading": "<怎么读>"}
+    ]}
+  },
+  "conflict_resolution": {"records": [
+    {"changed_skill": "<技能A>", "original_result": null, "reconciled_result": null,
+     "evidence_source": "<原始证据>", "mapping_reason": "<映射理由>",
+     "recalculation_scope": ["<技能A>"], "run_id": "run:template", "timestamp": "<时间>"}
+  ], "changed_skills": ["<技能A>"], "recalculation_scope": ["<技能A>"]},
+  "micro_result": {
+    "sparse_level": 0, "baseline": true, "fit_100": null,
+    "supply_provenance": "major_baseline",
+    "evidence_summary": {"knowledge": 0, "skill": 0, "capability": 0, "practice": 0},
+    "personal_supply": {"knowledge": {"<知识项>": null}, "skill": {"<技能A>": null},
+                        "capability": {"<能力项>": null}, "practice": {"<实践项>": null}},
+    "demand_layers": {"knowledge": {"<知识项>": null}, "skill": {"<技能A>": null},
+                      "capability": {"<能力项>": null}, "practice": {}},
+    "gaps": {
+      "knowledge": {"status": "insufficient_evidence", "reason": "<原因>"},
+      "skill": {"status": "insufficient_evidence", "reason": "<原因>"},
+      "capability": {"status": "insufficient_evidence", "reason": "<原因>"},
+      "practice": {"status": "insufficient_evidence", "reason": "该层没有可核查的需求向量"}
+    },
+    "priority_actions": [{"layer": "skill", "item": "<技能A>",
+                          "action": "<做什么 / 挂靠哪门课 / 预期效果 / 依据>"}],
+    "declared": {"absences": []}
+  },
+  "evidence": [
+    {"evidence_id": "ev:jobs:<来源>", "evidence_level": "C",
+     "title": "目标岗位招聘语料（可观察招聘记录）", "locator": "data/processed/jobs.json（占位）",
+     "source_type": "job_market", "quote": "<JD 原文占位>"},
+    {"evidence_id": "ev:courses:<来源>", "evidence_level": "B",
+     "title": "本校培养方案课程库", "locator": "data/source/培养方案/<院校>/（占位）",
+     "source_type": "document", "quote": "<课程表原文占位>"},
+    {"evidence_id": "ev:teaching:<来源>", "evidence_level": "A",
+     "title": "本科教学质量报告（师资/实践/条件）", "locator": "data/source/年度报告/<院校>/（占位）",
+     "source_type": "document", "quote": "<报告原文占位>"}
+  ]
+}

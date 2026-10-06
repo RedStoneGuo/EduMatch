@@ -1,0 +1,24 @@
+{
+  "name": "edu-material-harvest",
+  "version": "2.0.0",
+  "description": "从官方免登录 *.edu.cn 源自动发现并采集高校的培养方案 / 专业介绍 / 课程大纲 / 年度报告，逐份落盘并登记可溯源台账（下载直链 + 承载页）。适用于任意中国高校，不限地域。内置零依赖 MCP 服务端（仓库根 .mcp.json），Claude Code / Codex / WorkBuddy / 千问办公 可用同一套能力。",
+  "keywords": [
+    "education",
+    "university",
+    "china",
+    "edu-cn",
+    "web-harvest",
+    "crawler",
+    "curriculum",
+    "mcp",
+    "model-context-protocol",
+    "cross-agent",
+    "codex",
+    "workbuddy",
+    "培养方案",
+    "专业介绍",
+    "课程大纲",
+    "年度报告",
+    "台账"
+  ]
+}

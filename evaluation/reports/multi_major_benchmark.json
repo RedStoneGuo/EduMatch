@@ -1,0 +1,222 @@
+{
+  "rows": [
+    {
+      "major": "人工智能",
+      "status": "ok",
+      "mode": "E_skill_gap",
+      "tsi_v1": 65.45,
+      "tsi_v1_available": "16/27",
+      "tsi_v1_dims": {
+        "A": 73.26,
+        "B": 60.63,
+        "C": 64.32
+      },
+      "tsi_v2": 56.11,
+      "band": "基本适配",
+      "matching": 52.54,
+      "gap_index": 0.127,
+      "top_gaps": [
+        "大模型",
+        "模型部署",
+        "RAG"
+      ],
+      "semantic_signals": {
+        "setup_basis": "有依据",
+        "organization": "仅提及组织",
+        "digital_teaching": "仅提及",
+        "joint_textbook": "仅提及",
+        "enterprise_course": "企业导师参与",
+        "industry_cooperation": "enterprise_mentor"
+      },
+      "missing_v1": [
+        "A13",
+        "A22",
+        "B12",
+        "B31",
+        "B32",
+        "B42",
+        "C11",
+        "C12",
+        "C13",
+        "C32",
+        "C33"
+      ]
+    },
+    {
+      "major": "人工智能·北工大",
+      "status": "ok",
+      "mode": "B_school_major_analysis",
+      "tsi_v1": 56.41,
+      "tsi_v1_available": "14/27",
+      "tsi_v1_dims": {
+        "A": 52.39,
+        "B": 49.39,
+        "C": 63.32
+      },
+      "tsi_v2": 53.17,
+      "band": "适配不足",
+      "matching": 52.54,
+      "gap_index": 0.127,
+      "top_gaps": [
+        "大模型",
+        "模型部署",
+        "RAG"
+      ],
+      "semantic_signals": {
+        "setup_basis": "有依据",
+        "digital_teaching": "有在线课程/平台",
+        "joint_textbook": "仅提及",
+        "enterprise_course": "企业导师参与"
+      },
+      "missing_v1": [
+        "A13",
+        "A22",
+        "A24",
+        "B12",
+        "B31",
+        "B32",
+        "B51",
+        "B52",
+        "C11",
+        "C12",
+        "C13",
+        "C32",
+        "C33"
+      ]
+    },
+    {
+      "major": "计算机科学与技术",
+      "status": "ok",
+      "mode": "A_major_analysis",
+      "tsi_v1": 61.85,
+      "tsi_v1_available": "16/27",
+      "tsi_v1_dims": {
+        "A": 72.68,
+        "B": 60.8,
+        "C": 56.54
+      },
+      "tsi_v2": 56.54,
+      "band": "基本适配",
+      "matching": 53.63,
+      "gap_index": 0.1105,
+      "top_gaps": [
+        "大模型",
+        "模型部署",
+        "RAG"
+      ],
+      "semantic_signals": {
+        "setup_basis": "有依据",
+        "organization": "仅提及组织",
+        "digital_teaching": "仅提及",
+        "joint_textbook": "仅提及",
+        "enterprise_course": "企业导师参与",
+        "industry_cooperation": "enterprise_mentor"
+      },
+      "missing_v1": [
+        "A13",
+        "A22",
+        "B12",
+        "B31",
+        "B32",
+        "B42",
+        "C11",
+        "C12",
+        "C13",
+        "C32",
+        "C33"
+      ]
+    },
+    {
+      "major": "软件工程",
+      "status": "ok",
+      "mode": "A_major_analysis",
+      "tsi_v1": 65.53,
+      "tsi_v1_available": "15/27",
+      "tsi_v1_dims": {
+        "A": 87.1,
+        "B": 60.8,
+        "C": 56.69
+      },
+      "tsi_v2": 55.69,
+      "band": "基本适配",
+      "matching": 53.63,
+      "gap_index": 0.1105,
+      "top_gaps": [
+        "大模型",
+        "模型部署",
+        "RAG"
+      ],
+      "semantic_signals": {
+        "setup_basis": "有依据",
+        "organization": "仅提及组织",
+        "digital_teaching": "仅提及",
+        "joint_textbook": "仅提及",
+        "enterprise_course": "企业导师参与",
+        "industry_cooperation": "enterprise_mentor"
+      },
+      "missing_v1": [
+        "A12",
+        "A13",
+        "A22",
+        "B12",
+        "B31",
+        "B32",
+        "B42",
+        "C11",
+        "C12",
+        "C13",
+        "C32",
+        "C33"
+      ]
+    },
+    {
+      "major": "会计学",
+      "status": "ok",
+      "mode": "A_major_analysis",
+      "tsi_v1": 62.95,
+      "tsi_v1_available": "15/27",
+      "tsi_v1_dims": {
+        "A": 87.1,
+        "B": 56.91,
+        "C": 53.56
+      },
+      "tsi_v2": 51.39,
+      "band": "适配不足",
+      "matching": 38.57,
+      "gap_index": 0.0299,
+      "top_gaps": [
+        "数据工程"
+      ],
+      "semantic_signals": {
+        "setup_basis": "有依据",
+        "organization": "仅提及组织",
+        "digital_teaching": "仅提及",
+        "joint_textbook": "仅提及",
+        "enterprise_course": "企业导师参与",
+        "industry_cooperation": "enterprise_mentor"
+      },
+      "missing_v1": [
+        "A12",
+        "A13",
+        "A22",
+        "B12",
+        "B31",
+        "B32",
+        "B42",
+        "C11",
+        "C12",
+        "C13",
+        "C32",
+        "C33"
+      ]
+    },
+    {
+      "major": "机械工程",
+      "status": "insufficient_evidence",
+      "mode": "X_unknown_major",
+      "message": "归档与本地数据中没有「机械工程」专业的可用数据，因此不给出适配度结论。",
+      "tsi_v1": null,
+      "tsi_v2": null
+    }
+  ]
+}

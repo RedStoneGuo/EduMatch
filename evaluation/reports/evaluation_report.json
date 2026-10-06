@@ -1,0 +1,681 @@
+{
+  "generated_at": "2026-10-04T16:27:20",
+  "dataset_summary": {
+    "n_documents": 2081,
+    "n_education_facts": 6594,
+    "n_pdf_facts": 3896,
+    "n_courses": 5515,
+    "n_policies": 145,
+    "n_policy_duplicates": 2,
+    "schools_ai": 2,
+    "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "market_dataset": "legacy_recruitment_aggregate_2024",
+    "market_counts": {
+      "raw_count": null,
+      "deduplicated_count": null,
+      "effective_count": null,
+      "note": "归档只保留聚合描述，未保留逐条岗位，因此不得当作岗位数量使用"
+    },
+    "market_major_scoped_jobs": 18931,
+    "source_mode": "local",
+    "source_counts": {
+      "local_courses": 13415,
+      "harvest_courses": 0,
+      "local_facts": 6594,
+      "harvest_facts": 0
+    },
+    "harvest_schools": []
+  },
+  "metrics": [
+    {
+      "metric": "M1_extraction_accuracy",
+      "value": 0.4,
+      "n": 10,
+      "by_scope": {
+        "major": {
+          "hit": 4,
+          "total": 4,
+          "value": 1.0
+        },
+        "school": {
+          "hit": 0,
+          "total": 6,
+          "value": 0.0
+        }
+      },
+      "source_policy": "数据源为报告 PDF 的自动抽取；三份策展文档仅作金标准校验",
+      "misses": [
+        {
+          "school": "中央民族大学",
+          "year": 2024,
+          "major": null,
+          "fact_type": "student_faculty_ratio",
+          "expected": 33.0
+        },
+        {
+          "school": "华北电力大学",
+          "year": 2023,
+          "major": null,
+          "fact_type": "student_faculty_ratio",
+          "expected": 16.33
+        },
+        {
+          "school": "中国农业大学",
+          "year": 2023,
+          "major": null,
+          "fact_type": "practice_credit_ratio",
+          "expected": 0.178
+        },
+        {
+          "school": "北京化工大学",
+          "year": 2023,
+          "major": null,
+          "fact_type": "total_hours",
+          "expected": 2166.0
+        },
+        {
+          "school": "华北电力大学",
+          "year": 2023,
+          "major": null,
+          "fact_type": "faculty_total",
+          "expected": 6.0
+        },
+        {
+          "school": "北京交通大学",
+          "year": 2023,
+          "major": null,
+          "fact_type": "faculty_total",
+          "expected": 14.0
+        }
+      ]
+    },
+    {
+      "metric": "M2_normalisation_accuracy",
+      "value": 1.0,
+      "n": 10,
+      "misses": []
+    },
+    {
+      "metric": "M3_evidence_recall",
+      "value": 1.0,
+      "n": 12
+    },
+    {
+      "metric": "M4_numeric_consistency",
+      "value": 1.0,
+      "engine": 0.7765,
+      "manual": 0.776532
+    },
+    {
+      "metric": "M5_tsi_repeatability",
+      "value": 1.0,
+      "tsi": 55.39
+    },
+    {
+      "metric": "M6_gap_repeatability",
+      "value": 1.0,
+      "gap_index": 0.0375
+    },
+    {
+      "metric": "M7_citation_completeness",
+      "value": 1.0,
+      "n_evidence": 260
+    },
+    {
+      "metric": "M8_hallucination_rate",
+      "value": 0.0,
+      "n_reports": 12,
+      "patterns": [
+        "导致",
+        "证明了",
+        "必然导致",
+        "决定了就业"
+      ]
+    },
+    {
+      "metric": "M9_missing_handling",
+      "value": 1.0
+    },
+    {
+      "metric": "M10_tool_call_success",
+      "value": 1.0,
+      "n_calls": 158
+    },
+    {
+      "metric": "M11_job_market_integrity",
+      "value": 1.0,
+      "counts": {
+        "raw_count": 128379,
+        "deduplicated_count": 35145,
+        "effective_count": 35133,
+        "note": "raw=全部来源原始行数；deduplicated=跨源指纹去重后；effective=含描述或技能、可用于需求估算的岗位数；major_scoped=按专业导出的专业作用域语料，单独用于非 AI/CS 专业"
+      },
+      "n_target_jobs": 16161,
+      "salary_premium": 1.7026,
+      "master_plus_share": 0.2916,
+      "evidence_level": "C"
+    },
+    {
+      "metric": "M12_literature_retrieval",
+      "value": 0.9661,
+      "n_works": 59,
+      "source": "openalex",
+      "robots": {
+        "api.openalex.org": "User-agent: * / Allow: /"
+      }
+    }
+  ],
+  "thresholds_met": {
+    "M1": false,
+    "M2": true,
+    "M4": true,
+    "M7": true,
+    "M8": true,
+    "M9": true,
+    "M10": true,
+    "M11": true,
+    "M12": true
+  },
+  "case_results": [
+    {
+      "id": "TC01",
+      "query": "分析北京市重点高校人工智能专业与2025年AI招聘市场的人才供需适配情况，并找出最关键的技能缺口",
+      "mode_expected": "E_skill_gap",
+      "mode_actual": "E_skill_gap",
+      "elapsed_s": 27.01,
+      "tsi_v2": 55.25,
+      "matching": 0.7765,
+      "gap_index": 0.0375,
+      "n_tools": 13,
+      "n_evidence": 23,
+      "missing_indicators": [
+        "A4",
+        "B3",
+        "B5",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "13 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "23 items"
+        },
+        "missing_null": {
+          "ok": true,
+          "detail": "6 null indicators"
+        },
+        "supply_demand_separated": {
+          "ok": true,
+          "detail": ""
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "TC02",
+      "query": "分析北京工业大学人工智能专业的培养方案与产业需求适配度",
+      "mode_expected": "B_school_major_analysis",
+      "mode_actual": "B_school_major_analysis",
+      "elapsed_s": 5.5,
+      "tsi_v2": 51.74,
+      "matching": 0.5765,
+      "gap_index": 0.0906,
+      "n_tools": 14,
+      "n_evidence": 19,
+      "missing_indicators": [
+        "A1",
+        "A3",
+        "A4",
+        "B3",
+        "B4",
+        "B5",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "14 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "19 items"
+        },
+        "missing_null": {
+          "ok": true,
+          "detail": "9 null indicators"
+        },
+        "course_fallback_disclosed": {
+          "ok": true,
+          "detail": "Skill Fit 使用 北京工业大学 本校可核查课程口径"
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "TC03",
+      "query": "对比北京地区211高校人工智能专业的就业质量",
+      "mode_expected": "C_benchmark",
+      "mode_actual": "C_benchmark",
+      "elapsed_s": 4.93,
+      "tsi_v2": 55.25,
+      "matching": 0.7765,
+      "gap_index": 0.0375,
+      "n_tools": 13,
+      "n_evidence": 22,
+      "missing_indicators": [
+        "A4",
+        "B3",
+        "B5",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "13 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "22 items"
+        },
+        "benchmark_sample_note": {
+          "ok": true,
+          "detail": ""
+        },
+        "no_rank_without_sample": {
+          "ok": true,
+          "detail": ""
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "TC04",
+      "query": "分析人工智能专业2021到2024年的就业趋势",
+      "mode_expected": "D_trend",
+      "mode_actual": "D_trend",
+      "elapsed_s": 4.84,
+      "tsi_v2": 55.25,
+      "matching": 0.7765,
+      "gap_index": 0.0375,
+      "n_tools": 13,
+      "n_evidence": 22,
+      "missing_indicators": [
+        "A4",
+        "B3",
+        "B5",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "13 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "22 items"
+        },
+        "trend_insufficient_when_single_point": {
+          "ok": true,
+          "detail": ""
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "TC05",
+      "query": "识别人工智能专业的技能缺口",
+      "mode_expected": "E_skill_gap",
+      "mode_actual": "E_skill_gap",
+      "elapsed_s": 5.13,
+      "tsi_v2": 55.25,
+      "matching": 0.7765,
+      "gap_index": 0.0375,
+      "n_tools": 13,
+      "n_evidence": 22,
+      "missing_indicators": [
+        "A4",
+        "B3",
+        "B5",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "13 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "22 items"
+        },
+        "gap_rows": {
+          "ok": true,
+          "detail": ""
+        },
+        "gap_insufficient_not_zero": {
+          "ok": true,
+          "detail": "0 not comparable"
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "TC06",
+      "query": "分析人工智能产业政策对专业设置的机制影响",
+      "mode_expected": "F_policy_mechanism",
+      "mode_actual": "F_policy_mechanism",
+      "elapsed_s": 4.91,
+      "tsi_v2": 55.25,
+      "matching": 0.7765,
+      "gap_index": 0.0375,
+      "n_tools": 13,
+      "n_evidence": 22,
+      "missing_indicators": [
+        "A4",
+        "B3",
+        "B5",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "13 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "22 items"
+        },
+        "no_causal_language": {
+          "ok": true,
+          "detail": ""
+        },
+        "policy_evidence_level_A": {
+          "ok": true,
+          "detail": "['A']"
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "TC07",
+      "query": "模拟增加大模型应用开发课程后培养方案的变化",
+      "mode_expected": "G_curriculum_simulation",
+      "mode_actual": "G_curriculum_simulation",
+      "elapsed_s": 6.47,
+      "tsi_v2": 55.39,
+      "matching": 0.7765,
+      "gap_index": 0.0375,
+      "n_tools": 14,
+      "n_evidence": 23,
+      "missing_indicators": [
+        "A4",
+        "B3",
+        "B5",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "14 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "23 items"
+        },
+        "simulation_disclaimer": {
+          "ok": true,
+          "detail": ""
+        },
+        "simulation_delta_present": {
+          "ok": true,
+          "detail": ""
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "TC08",
+      "query": "生成人工智能专业完整研究报告",
+      "mode_expected": "H_full_report",
+      "mode_actual": "H_full_report",
+      "elapsed_s": 5.7,
+      "tsi_v2": 55.39,
+      "matching": 0.7765,
+      "gap_index": 0.0375,
+      "n_tools": 14,
+      "n_evidence": 22,
+      "missing_indicators": [
+        "A4",
+        "B3",
+        "B5",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "14 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "22 items"
+        },
+        "report_sections_18": {
+          "ok": true,
+          "detail": ""
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "TC09",
+      "query": "分析中央民族大学人工智能专业的师资条件",
+      "mode_expected": "B_school_major_analysis",
+      "mode_actual": "B_school_major_analysis",
+      "elapsed_s": 5.61,
+      "tsi_v2": 50.86,
+      "matching": 0.7765,
+      "gap_index": 0.0375,
+      "n_tools": 13,
+      "n_evidence": 19,
+      "missing_indicators": [
+        "A3",
+        "A4",
+        "B3",
+        "B4",
+        "B5",
+        "C1",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "13 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "19 items"
+        },
+        "missing_null": {
+          "ok": true,
+          "detail": "9 null indicators"
+        },
+        "faculty_facts": {
+          "ok": true,
+          "detail": ""
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "TC10",
+      "query": "分析音乐人工智能与音乐信息科技专业的就业情况",
+      "mode_expected": "A_major_analysis",
+      "mode_actual": "A_major_analysis",
+      "elapsed_s": 5.55,
+      "tsi_v2": 53.03,
+      "matching": 0.7765,
+      "gap_index": 0.0375,
+      "n_tools": 13,
+      "n_evidence": 22,
+      "missing_indicators": [
+        "A4",
+        "B3",
+        "B5",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "13 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "22 items"
+        },
+        "graceful_unknown_major": {
+          "ok": true,
+          "detail": ""
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "TC11",
+      "query": "北京市高校毕业生就业政策有哪些主要方向",
+      "mode_expected": "F_policy_mechanism",
+      "mode_actual": "F_policy_mechanism",
+      "elapsed_s": 5.74,
+      "tsi_v2": 55.25,
+      "matching": 0.7765,
+      "gap_index": 0.0375,
+      "n_tools": 13,
+      "n_evidence": 22,
+      "missing_indicators": [
+        "A4",
+        "B3",
+        "B5",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "13 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "22 items"
+        },
+        "policy_industry_direction": {
+          "ok": true,
+          "detail": ""
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "TC12",
+      "query": "重复运行同一分析，结果是否可复现",
+      "mode_expected": "A_major_analysis",
+      "mode_actual": "A_major_analysis",
+      "elapsed_s": 5.57,
+      "tsi_v2": 55.25,
+      "matching": 0.7765,
+      "gap_index": 0.0375,
+      "n_tools": 13,
+      "n_evidence": 22,
+      "missing_indicators": [
+        "A4",
+        "B3",
+        "B5",
+        "C5",
+        "D1",
+        "D4"
+      ],
+      "checks": {
+        "tool_calls": {
+          "ok": true,
+          "detail": "13 calls"
+        },
+        "evidence": {
+          "ok": true,
+          "detail": "22 items"
+        }
+      },
+      "passed": true
+    }
+  ],
+  "cases_passed": 12,
+  "cases_total": 12,
+  "legacy_baseline": {
+    "tsi_v1_replayed": 49.929,
+    "tsi_v1_stated_by_llm": 70.0,
+    "gap_between_llm_and_formula": 20.07,
+    "n_indicators": 27,
+    "n_zero_scored": 13,
+    "zero_ratio": 0.4815,
+    "zero_indicators": [
+      "A13",
+      "A24",
+      "B12",
+      "B22",
+      "B31",
+      "B32",
+      "B33",
+      "B41",
+      "B42",
+      "B51",
+      "C11",
+      "C31",
+      "C33"
+    ],
+    "v2_equivalent": 55.39,
+    "v2_missing_indicators": [
+      "A4",
+      "B3",
+      "B5",
+      "C5",
+      "D1",
+      "D4"
+    ],
+    "v2_coverage": 1.0
+  }
+}

@@ -1,0 +1,153 @@
+project:
+  name: EduMatch
+  version: "2.0.0"
+  subtitle: 从培养方案到就业市场的智能供需诊断与培养优化
+  default_region: 北京
+  default_major: 人工智能
+  default_year: 2024
+
+paths:
+  # 全部路径都相对本核心目录（EduMatch/），迁移到其它电脑/盘符无需改配置。
+  workspace: "."
+  # 归档中随包复制的最小可运行部分（政策原文 + 旧版过程记录），保证脱离原归档也能跑通。
+  archive: "reference/archive"
+  database: "data/db/edumatch.sqlite"
+  ontology: "ontology/skill_ontology.yaml"
+  processed: "data/processed"
+  reports: "evaluation/reports"
+
+ingestion:
+  # 归档中由人工/LLM 整理的策展文档，作为可复算的结构化事实来源。
+  curated_documents:
+    - data/raw/majors_ai.txt
+    - data/raw/majors_cs.txt
+    - data/raw/majors_econ.txt
+  legacy_intermediate:
+    - reference/archive/输出过程记录/教学.txt
+    - reference/archive/输出过程记录/就业.txt
+    - reference/archive/输出过程记录/招聘.txt
+    - reference/archive/输出过程记录/政策.txt
+    - reference/archive/输出过程记录/最终计算输入.txt
+    - reference/archive/输出过程记录/人工智能专业 TSI得分计算输入.txt
+    - reference/archive/输出过程记录/人工智能专业 TSI得分计算输出.txt
+  # 政策原文统一从 data/source/政策文件 装载（规范结构：数据类型 → 院校/来源）。
+  # reference/archive/竞赛_知识库_学校资料/政策文件 是迁移前的最小运行副本，保留做对照。
+  policy_dir: "data/source/政策文件"
+  max_policy_chars: 20000
+
+dedup:
+  # 招聘岗位去重：公司+岗位+城市+薪资区间的规范化指纹
+  job_fingerprint_fields: [company_norm, position_norm, city_norm, salary_bucket]
+  near_duplicate_jaccard: 0.9
+
+recruitment:
+  # 合规抓取默认关闭；开启前必须确认目标站点 robots.txt 与服务条款允许。
+  crawler_enabled: false
+  request_interval_seconds: 3.0
+  respect_robots_txt: true
+  user_agent: "EduMatchResearchBot/2.0 (+research; contact: project-owner)"
+  cache_dir: data/raw/cache
+  time_window_months: 12
+  allowed_cities: [北京]
+
+core_model:
+  version: "primary-3.0"
+  # 供给侧：Skill Supply = min(Σ 学分×必修×深度×实践 / C_ref + β·培养目标命中, 1)
+  reference_credits: 6.0
+  objective_bonus: 0.10
+  # 目标高校课程证据门槛：低于该值时 Target Supply 标记 partial_evidence，
+  # 仍按目标校自己的证据计算（保守下界），但不得用同类基准替代。
+  min_target_courses: 3
+  # Primary TSI 四维权重（供需适配为核心，需求背景为背景变量）
+  dimensions:
+    F_供需适配: 0.40
+    S_培养基础: 0.20
+    O_人才结果: 0.25
+    M_需求背景: 0.15
+  min_dimension_coverage: 0.34
+  # 需求向量分量权重（与 edumatch/jobs/demand.py 保持一致）
+  demand_components:
+    frequency: 0.25
+    position_coverage: 0.20
+    occupation_coverage: 0.15
+    salary_premium: 0.10
+    policy_relevance: 0.15
+    industry_weight: 0.05
+    trend: 0.05
+    stability: 0.05
+
+families:
+  # 专业族注册表：决定"系统能分析哪些专业族"。
+  # 配置后 data/raw/majors_<族>.txt 不再是必需项——它们只作为人工校核的金标准，
+  # 缺失时分析照常进行（课程来自培养方案导入库与 PDF 抽取，而非这三份总结文档）。
+  ai:
+    name: 人工智能
+    curated: data/raw/majors_ai.txt
+  cs:
+    name: 计算机
+    curated: data/raw/majors_cs.txt
+  econ:
+    name: 经济管理
+    curated: data/raw/majors_econ.txt
+
+tsi_v2:
+  # 历史研究对照版本（保留，不作为正式主口径）
+  role: research_comparison
+  version: "2.0"
+  # 人才供需适配度 = 加权可用维度；缺失维度不补 0，而是从分母中剔除并降低置信度。
+  dimensions:
+    A_人才培养基础: 0.20
+    B_人才培养过程: 0.25
+    C_人才培养结果: 0.25
+    D_市场需求: 0.30
+  min_dimension_coverage: 0.34
+  renormalize_on_missing: true
+  score_bands:
+    - [85, 100, "高度适配"]
+    - [70, 85, "较适配"]
+    - [55, 70, "基本适配"]
+    - [40, 55, "适配不足"]
+    - [0, 40, "严重错配"]
+  # 连续型指标相对基准的映射：基准=60，相对基准翻倍=100，相对基准减半≈40
+  continuous_map:
+    benchmark_score: 60
+    upper_anchor_ratio: 2.0
+    lower_anchor_ratio: 0.5
+
+evidence:
+  levels:
+    A: 官方原始数据直接得到
+    B: 官方数据计算得到
+    C: 多来源交叉计算
+    D: 语义抽取或模型判断
+    E: 证据不足
+  confidence_weights:
+    A: 1.0
+    B: 0.85
+    C: 0.7
+    D: 0.5
+    E: 0.0
+
+agent:
+  llm_enabled: false
+  provider: openai_compatible
+  base_url: "https://api.openai.com/v1"
+  model: "gpt-4o-mini"
+  timeout_seconds: 60
+  max_steps: 12
+
+data_source:
+  # 教育供给端数据来源模式（可在 CLI/API 覆盖）：
+  #   local   = 只用 data/source 与本地结构化库（默认，离线可复现）
+  #   plugin  = 只用 edu-material-harvest 插件联网收割的目标院校/专业数据
+  #   hybrid  = 本地全量 + 插件新收割数据，合并去重后综合分析
+  mode: "local"
+  harvest:
+    # 插件仓库位置（随包 vendor 目录）；只需改这两行即可指向别处的克隆
+    vendor_dir: "vendor/edu-material-harvest"
+    script: "skills/edu-material-harvest/scripts/mcp_server.py"
+    work_dir: "data/harvest"
+    python: ""                      # 空=当前解释器
+    backend: "mcp"                  # mcp | replay
+    timeout_seconds: 900
+    kinds: [培养方案, 专业介绍, 课程大纲, 年度报告]

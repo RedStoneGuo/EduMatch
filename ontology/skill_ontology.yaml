@@ -1,0 +1,112 @@
+version: "2.0"
+description: >
+  EduMatch 技能本体（Skill Ontology）。用于把课程文本、招聘 JD、政策文本中的
+  技能表述归一化为统一技能实体。匹配策略为「规则别名 + 层级传播 + 语义复核」，
+  纯字符串匹配只作为第一层召回，不作为最终判定依据。
+
+skill_tree:
+  人工智能:
+    aliases: [AI, Artificial Intelligence, 人工智能技术]
+    category: 领域
+    skills:
+      编程:
+        aliases: [程序设计, programming, 编码]
+        skills:
+          Python: {aliases: [python3, python语言, py], category: 编程语言}
+          C++: {aliases: [cpp, "c plus plus", C＋＋], category: 编程语言}
+          Java: {aliases: [java se, java语言], category: 编程语言}
+          C语言: {aliases: [C, ANSI C], category: 编程语言, note: "单字母别名需上下文确认"}
+          SQL: {aliases: [结构化查询语言, mysql, postgresql], category: 数据}
+      数学基础:
+        aliases: [数理基础, 数学与统计]
+        skills:
+          线性代数: {aliases: [矩阵论, linear algebra]}
+          概率统计: {aliases: [概率论, 数理统计, 统计学]}
+          最优化方法: {aliases: [凸优化, optimization]}
+      机器学习:
+        aliases: [ML, Machine Learning, 机器学习算法]
+        skills:
+          监督学习: {aliases: [分类模型, 回归模型]}
+          无监督学习: {aliases: [聚类, 降维]}
+          特征工程: {aliases: [feature engineering]}
+          模型评估: {aliases: [交叉验证, 评价指标]}
+      深度学习:
+        aliases: [DL, Deep Learning, 神经网络]
+        skills:
+          PyTorch: {aliases: [torch, pytorch框架, pytorch framework, 火炬], category: 框架}
+          TensorFlow: {aliases: [tf, tensorflow2], category: 框架}
+          卷积神经网络: {aliases: [CNN, 卷积网络]}
+          Transformer: {aliases: [注意力机制, attention, 变换器]}
+          多模态: {aliases: [multimodal, 图文跨模态]}
+      大模型:
+        aliases: [LLM, 大语言模型, 基础模型]
+        skills:
+          RAG: {aliases: [检索增强生成, retrieval augmented generation]}
+          Agent: {aliases: [智能体, AI Agent, 多智能体]}
+          Prompt工程: {aliases: [提示词工程, Prompt Engineering, prompt设计]}
+          模型微调: {aliases: [SFT, LoRA, 指令微调, 微调]}
+          模型对齐: {aliases: [RLHF, DPO, 对齐训练]}
+      工程化:
+        aliases: [工程实践, 部署与运维]
+        skills:
+          Docker: {aliases: [容器化, 容器技术]}
+          Kubernetes: {aliases: [K8s, 容器编排]}
+          MLOps: {aliases: [模型运维, ml工程化, mlops平台]}
+          模型部署: {aliases: [模型上线, 推理服务, 模型推理优化, 部署]}
+          数据工程: {aliases: [数据架构, 数据治理, 数据中台, 数据管道, ETL]}
+      应用方向:
+        skills:
+          计算机视觉: {aliases: [CV, 图像识别, 视觉算法, 医疗影像]}
+          自然语言处理: {aliases: [NLP, 文本挖掘, 语义理解]}
+          推荐系统: {aliases: [推荐算法, 召回排序]}
+          知识图谱: {aliases: [KG, 图谱构建]}
+          具身智能: {aliases: [机器人学习, 智能机器人]}
+
+industry_directions:
+  人工智能:
+    aliases: [AI产业, 智能产业]
+    related_skills: [机器学习, 深度学习, 大模型, 工程化]
+  新一代信息技术:
+    aliases: [数字经济, 软件和信息服务]
+    related_skills: [编程, 数据工程, 云计算]
+  智能网联汽车:
+    aliases: [智能汽车, 自动驾驶]
+    related_skills: [感知算法, 嵌入式, 计算机视觉]
+  医药健康:
+    aliases: [医疗健康, 生物医药]
+    related_skills: [医疗影像, 数据分析]
+  集成电路:
+    aliases: [半导体, 芯片]
+    related_skills: [嵌入式, C++, 硬件加速]
+
+course_skill_rules:
+  - pattern: ["人工智能导论", "人工智能概论", "AI思维", "人工智能与计算科学"]
+    skills: [人工智能, 机器学习]
+  - pattern: ["程序设计", "编程基础", "计算机程序设计", "Python", "面向对象"]
+    skills: [编程, Python]
+  - pattern: ["数据结构", "算法设计", "算法分析"]
+    skills: [编程, 模型评估]
+  - pattern: ["机器学习", "统计学习"]
+    skills: [机器学习, 概率统计]
+  - pattern: ["深度学习", "神经网络"]
+    skills: [深度学习, PyTorch]
+  - pattern: ["大模型", "LLM", "生成式", "AIGC"]
+    skills: [大模型, RAG, Prompt工程]
+  - pattern: ["智能体", "Agent", "AI应用开发"]
+    skills: [Agent, 大模型]
+  - pattern: ["数据治理", "数据架构", "数据中台", "大数据", "数据仓库"]
+    skills: [数据工程]
+  - pattern: ["云计算", "容器", "Docker", "Kubernetes", "MLOps", "模型部署"]
+    skills: [工程化, Docker, MLOps, 模型部署]
+  - pattern: ["计算机视觉", "图像处理", "影像"]
+    skills: [计算机视觉]
+  - pattern: ["自然语言处理", "文本挖掘", "语音"]
+    skills: [自然语言处理]
+  - pattern: ["推荐系统", "推荐算法"]
+    skills: [推荐系统]
+  - pattern: ["知识图谱"]
+    skills: [知识图谱]
+  - pattern: ["数据库", "SQL", "数据管理"]
+    skills: [SQL]
+  - pattern: ["实践", "实训", "实习", "项目制", "课程设计", "创新创业"]
+    skills: [工程化]

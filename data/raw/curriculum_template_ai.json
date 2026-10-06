@@ -1,0 +1,36 @@
+{
+  "template_id": "ai_undergraduate_typical_v1",
+  "title": "人工智能专业课程模板（可编辑）",
+  "evidence_level": "E",
+  "is_evidence": false,
+  "warning": "本文件不是档案原始数据，也不是任何具体高校的培养方案。它是一份供演示与模拟使用的可编辑课程骨架，用于展示『课程→技能→缺口→TSI』的计算链路。任何正式结论都必须用目标高校真实培养方案替换并重新运行。",
+  "usage": "仅当显式传入 include_template=true 时参与计算；结果中每条记录都会带 template=true 与 evidence_level=E。",
+  "courses": [
+    {"name": "高等数学", "credits": 6.0, "category": "数学基础", "description": "微积分与级数"},
+    {"name": "线性代数", "credits": 3.0, "category": "数学基础", "description": "矩阵、向量空间、特征分解"},
+    {"name": "概率论与数理统计", "credits": 3.0, "category": "数学基础", "description": "概率分布、假设检验、统计推断"},
+    {"name": "程序设计基础（Python）", "credits": 4.0, "category": "专业基础", "description": "Python 编程、数据结构基础、程序调试"},
+    {"name": "数据结构与算法", "credits": 4.0, "category": "专业基础", "description": "算法设计与复杂度分析"},
+    {"name": "数据库原理与应用", "credits": 3.0, "category": "专业基础", "description": "SQL、关系模型、事务"},
+    {"name": "计算机组成原理", "credits": 3.5, "category": "专业基础", "description": "计算机硬件组成"},
+    {"name": "操作系统", "credits": 3.5, "category": "专业基础", "description": "进程、内存与文件系统"},
+    {"name": "计算机网络", "credits": 3.0, "category": "专业基础", "description": "网络协议与体系结构"},
+    {"name": "人工智能导论", "credits": 2.0, "category": "专业核心", "description": "人工智能基本概念、搜索、知识表示"},
+    {"name": "机器学习", "credits": 3.5, "category": "专业核心", "description": "监督学习、无监督学习、模型评估与特征工程"},
+    {"name": "深度学习", "credits": 3.5, "category": "专业核心", "description": "神经网络、CNN、Transformer、PyTorch 框架"},
+    {"name": "模式识别与计算机视觉", "credits": 3.0, "category": "专业方向", "description": "图像处理、视觉算法"},
+    {"name": "自然语言处理", "credits": 3.0, "category": "专业方向", "description": "文本挖掘、语义理解"},
+    {"name": "数据治理与数据中台实践", "credits": 2.0, "category": "专业方向", "description": "数据架构、数据治理、数据管道 ETL"},
+    {"name": "人工智能伦理与治理", "credits": 1.5, "category": "通识", "description": "AI 伦理与合规"},
+    {"name": "机器学习课程设计", "credits": 2.0, "category": "实践", "description": "真实数据集建模实践", "is_practice": true, "practice_hours": 48},
+    {"name": "企业项目实训", "credits": 4.0, "category": "实践", "description": "校企联合真实项目，工程化开发与团队协作", "is_practice": true, "practice_hours": 96},
+    {"name": "毕业设计", "credits": 8.0, "category": "实践", "description": "综合应用与工程实现", "is_practice": true, "practice_hours": 192}
+  ],
+  "candidate_electives": [
+    {"name": "大模型应用开发", "credits": 3.0, "category": "专业方向", "description": "大模型 LLM、检索增强生成 RAG、Prompt 工程、Agent 智能体开发"},
+    {"name": "MLOps 与模型部署实践", "credits": 2.5, "category": "实践", "description": "MLOps、Docker、Kubernetes、模型部署与推理优化", "is_practice": true, "practice_hours": 32},
+    {"name": "知识图谱与智能问答", "credits": 2.0, "category": "专业方向", "description": "知识图谱构建与语义问答"},
+    {"name": "推荐系统", "credits": 2.0, "category": "专业方向", "description": "召回与排序算法"},
+    {"name": "具身智能与机器人", "credits": 2.0, "category": "专业方向", "description": "机器人学习与具身智能"}
+  ]
+}

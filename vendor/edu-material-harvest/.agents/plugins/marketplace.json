@@ -1,0 +1,20 @@
+{
+  "name": "edu-material-harvest",
+  "interface": {
+    "displayName": "高校公开资料采集"
+  },
+  "plugins": [
+    {
+      "name": "edu-material-harvest",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    }
+  ]
+}

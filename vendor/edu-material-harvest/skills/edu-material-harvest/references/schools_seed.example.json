@@ -1,0 +1,30 @@
+{
+  "_说明": [
+    "discover.py 批量种子模板。用法：python discover.py --seeds schools_seed.json",
+    "字段：school(校名) / domain(官方 *.edu.cn 域名，必填) / kinds(可选，缺省=全部四类)",
+    "⚠️ domain 必须实测解析过的官方域名，绝不猜。",
+    "把本文件复制成 schools_seed.json 后按你的学校清单改写即可。",
+    "格式可写成 {\"schools\":[...]} 或直接一个数组 [...]，两种 discover.py 都认。"
+  ],
+  "_kinds可选值": ["培养方案", "专业介绍", "课程大纲", "年度报告"],
+  "schools": [
+    {
+      "school": "华中科技大学",
+      "domain": "hust.edu.cn",
+      "kinds": ["年度报告"],
+      "_note": "本 skill 实测跑通（xxgk.hust.edu.cn 信息公开网，年度报告 2017-2024）"
+    },
+    {
+      "school": "湖南大学",
+      "domain": "hnu.edu.cn",
+      "kinds": ["培养方案", "专业介绍"],
+      "_note": "本 skill 实测：jwc.hnu.edu.cn 被 WAF 拦，属真实边界"
+    },
+    {
+      "school": "某高校",
+      "domain": "example.edu.cn",
+      "kinds": ["课程大纲"],
+      "_note": "占位：改成你的学校与实测域名后删掉本行"
+    }
+  ]
+}
